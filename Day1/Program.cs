@@ -10,11 +10,10 @@
             //2
                 double huashidu ,sheshidu,aaa;
                 Console.Write("当前华氏度为：");
-                string huashidu2 = Console.ReadLine();
-                var huashidu3 = double.Parse(huashidu2);
-                double sheshidu0 =( huashidu3 * 9.0/5-32) ;
+                double huashidu2 = double.Parse( Console.ReadLine());
+                double sheshidu0 =(5 * (huashidu2 - 32) / 9.0) ;
                 sheshidu=Math.Truncate(sheshidu0*1000)/1000;
-                Console.WriteLine("摄氏度为{0}°，华氏度为{1}°",sheshidu,huashidu3);
+                Console.WriteLine("摄氏度为{0}°，华氏度为{1}°",sheshidu,huashidu2);
             //4
                 Console.Write("当前救援小时数为：");
                 string hours = Console.ReadLine();

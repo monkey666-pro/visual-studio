@@ -1,0 +1,147 @@
+# 1day
+
+math. round（x）	四舍五入取整    1、也可取小数：通过×调整目标四舍五入小数位，将得到后的结果再÷回到原					值
+
+​			      	 2、通过(x,想要保留的小数个数)但是也是自动四舍五入		
+math. ceilling（x）	向上取整（小数情况：不计小数）
+math. floor（x）	向下取整（小数情况：正数取原来的整数，负数忽略小数记）
+math. abs	（x）	绝对值
+math. sqrt	（x）	平方根
+math. pow（x,y）	x的y次方
+math.pi		Π（圆的周长与直径的比值）
+math.truncate	（x*10的保留数次方）实现不四舍五入保留小数
+
+math.sin/cos/tan（x） 求角度
+
+类型.parse()		转换类型	
+疑惑：math.PI中度转弧度的逻辑
+
+​	求弧长：度数*2Π：园周长/360°（math.PI）-------一度的弧长
+
+​	求角度：弧长**180°*/math.PI---------一弧长的度数
+
+
+
+# 2day
+
+###### 1、隐式：系统自动完成
+
+###### 2、dynamic
+
+​		概念：运行时才会识别函数的数据类型
+
+###### 3、数据字典Dictionary
+
+​		概念：一种**泛型集合类**
+
+​				泛型集合：类型广泛的集合
+
+​		作用：方便存储和检索数据
+
+​		用法：Dictionary<变量类型，值类型> 变量名 =new Dictionary <数据类型，值类型>{初始值}（{}举例如下：）
+
+​			{
+
+​				[变量类型对应的变量名（a）]=值类型
+
+​				[变量类型对应的变量名(b)]=new Dictionary <数据类型，数据类型>()
+
+​				{
+
+​					可以输入初次设置的变量名给不同的值（独立的）//a1
+
+​				}
+
+​			}
+
+```
+			Console.WriteLine(变量名[a])		//输出初次设置的集合
+
+​			Console.WriteLine(变量名[b] [a1])	//输出new设置的集合
+
+​			Console.WriteLine(变量名**[b]**.TryGetValue (a, out 值类型 接受该值的变量))	//				获取里面的值
+
+​									[b]进入new里获取里面的值
+```
+
+###### 4、list用法，结构
+
+​		概念：**强类型**的泛型集合
+
+​				强类型：变量必须声明类型，弱类型反之
+
+​		用法：list <string> A = new <string>(){}
+
+​			add(A.add(内容))
+
+​				在末尾增加数据
+
+​			addrange(A.addrange([内容]))
+
+​				在增加多处数据
+
+​			insert(A.insert(目标位置(索引),内容))
+
+​				在目标索引出增加数据
+
+​			Remove (A.remove(数据数据))
+
+​				删除集合中所填的数据
+
+​			RemoveAT(A.removeat(索引))
+
+​				删除指定索引的数据
+
+​			RemoveRange(A.Removerange(索引，数字))
+
+​				从所填索引数开始，删除所填数字的个数
+
+​			Clear(A.clear())
+
+​				删除集合中所有的数据
+
+​			constains(A.constains(数据))
+
+​				判断该集合中是否有所填数据（输出为布尔型）
+
+​			indexOf(A.indexOf(集合中的数据))
+
+​				得到所填数据第一次的索引
+
+​			LastindexOf(A.LastindexOf(集合中的数据))
+
+​				得到所填数据最后一次的索引
+
+​			GetRange(A.GetRange(索引，个数))
+
+​				得到A集合中从所填索引开始到所填个数的值（所得的为集合）
+
+​			Reverse(A.Reverse())
+
+​				将集合中的数据反过来
+
+###### 5、random用法
+
+​		Random A =new Random()
+
+​		int num =A.Next(9)-----Next函数从0-int开始算	
+
+​			从0开始到9选一个随机数（不包含9）
+
+​		double num1=A.Nextdouble()
+
+​			选一个随机小数(0-1)不能给范围
+
+​		
+
+###### 6、变量明.GetType()		
+
+​		结果用来检验数据类型
+
+###### 7、var 变量 = **new**{}
+
+​			new：用于创建对象、数组以及匿名类型（用法之一）
+
+​		概念：匿名对象（非集合）为变量，只可获取不可修改	
+
+8、	

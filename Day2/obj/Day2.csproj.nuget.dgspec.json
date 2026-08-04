@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ning(整体)\\WinformApp1\\Day2\\Day2.csproj": {}
+    "D:\\ning(整体)\\WinformApp1\\day2\\Day2.csproj": {}
   },
   "projects": {
-    "D:\\ning(整体)\\WinformApp1\\Day2\\Day2.csproj": {
+    "D:\\ning(整体)\\WinformApp1\\day2\\Day2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ning(整体)\\WinformApp1\\Day2\\Day2.csproj",
+        "projectUniqueName": "D:\\ning(整体)\\WinformApp1\\day2\\Day2.csproj",
         "projectName": "Day2",
-        "projectPath": "D:\\ning(整体)\\WinformApp1\\Day2\\Day2.csproj",
+        "projectPath": "D:\\ning(整体)\\WinformApp1\\day2\\Day2.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "D:\\ning(整体)\\WinformApp1\\Day2\\obj\\",
         "projectStyle": "PackageReference",

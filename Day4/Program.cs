@@ -267,7 +267,7 @@ namespace Day4
             Console.WriteLine(ZZZ);
             //作业八
             double cunkuan = 50000.0,shengqian=0,shengqian1=0;
-            for (int month = 0; month >= 0; month++)
+            for (int month = 1; month >= 0; month++)
             
             {
                 cunkuan = cunkuan * 0.95;
@@ -287,13 +287,14 @@ namespace Day4
             }
             Console.WriteLine(peach);
             //作业十
-            double gaodu = 10,jingli=0;
+            double gaodu = 10,jingli=0,h=0;
             for (int luodi = 10; luodi > 0; luodi--)
             {
-                gaodu = gaodu / 2;
-                jingli += gaodu;
+                jingli = gaodu * 1.5;
+                gaodu = gaodu * 0.5;
+                h += jingli;
             }
-            Console.WriteLine(jingli+10);
+            Console.WriteLine(h);
         }
     }
 }

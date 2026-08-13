@@ -1,0 +1,15 @@
+D:\ning(整体)\WinformApp1\Day9\bin\Debug\net8.0\Day9.exe
+D:\ning(整体)\WinformApp1\Day9\bin\Debug\net8.0\Day9.deps.json
+D:\ning(整体)\WinformApp1\Day9\bin\Debug\net8.0\Day9.runtimeconfig.json
+D:\ning(整体)\WinformApp1\Day9\bin\Debug\net8.0\Day9.dll
+D:\ning(整体)\WinformApp1\Day9\bin\Debug\net8.0\Day9.pdb
+D:\ning(整体)\WinformApp1\Day9\obj\Debug\net8.0\Day9.GeneratedMSBuildEditorConfig.editorconfig
+D:\ning(整体)\WinformApp1\Day9\obj\Debug\net8.0\Day9.AssemblyInfoInputs.cache
+D:\ning(整体)\WinformApp1\Day9\obj\Debug\net8.0\Day9.AssemblyInfo.cs
+D:\ning(整体)\WinformApp1\Day9\obj\Debug\net8.0\Day9.csproj.CoreCompileInputs.cache
+D:\ning(整体)\WinformApp1\Day9\obj\Debug\net8.0\Day9.sourcelink.json
+D:\ning(整体)\WinformApp1\Day9\obj\Debug\net8.0\Day9.dll
+D:\ning(整体)\WinformApp1\Day9\obj\Debug\net8.0\refint\Day9.dll
+D:\ning(整体)\WinformApp1\Day9\obj\Debug\net8.0\Day9.pdb
+D:\ning(整体)\WinformApp1\Day9\obj\Debug\net8.0\Day9.genruntimeconfig.cache
+D:\ning(整体)\WinformApp1\Day9\obj\Debug\net8.0\ref\Day9.dll

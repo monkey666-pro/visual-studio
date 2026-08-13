@@ -74,57 +74,57 @@ math.sin/cos/tan（x） 求角度
 
 ​		用法：list <string> A = new <string>(){}
 
-​			add(A.add(内容))
+​			**add(A.add(内容))**
 
 ​				在末尾增加数据
 
-​			addrange(A.addrange([内容]))
+​			**addrange(A.addrange([内容]))**
 
 ​				在增加多处数据
 
-​			insert(A.insert(目标位置(索引),内容))
+​			**insert(A.insert(目标位置(索引),内容))**
 
 ​				在目标索引出增加数据
 
-​			Remove (A.remove(数据数据))
+​			**Remove (A.remove(数据数据))**
 
 ​				删除集合中所填的数据
 
-​			RemoveAT(A.removeat(索引))
+​			**RemoveAT(A.removeat(索引))**
 
 ​				删除指定索引的数据
 
-​			RemoveRange(A.Removerange(索引，数字))
+​			**RemoveRange(A.Removerange(索引，数字))**
 
 ​				从所填索引数开始，删除所填数字的个数
 
-​			Clear(A.clear())
+​			**Clear(A.clear())**
 
 ​				删除集合中所有的数据
 
-​			constains(A.constains(数据))
+​			**constains(A.constains(数据))**
 
 ​				判断该集合中是否有所填数据（输出为布尔型）
 
-​			indexOf(A.indexOf(集合中的数据))
+​			**indexOf(A.indexOf(集合中的数据))**
 
 ​				得到所填数据第一次的索引
 
-​			LastindexOf(A.LastindexOf(集合中的数据))
+​			**LastindexOf(A.LastindexOf(集合中的数据))**
 
 ​				得到所填数据最后一次的索引
 
-​			GetRange(A.GetRange(索引，个数))
+​			**GetRange(A.GetRange(索引，个数))**
 
 ​				得到A集合中从所填索引开始到所填个数的值（所得的为集合）
 
-​			Reverse(A.Reverse())
+​			**Reverse(A.Reverse())**
 
 ​				将集合中的数据反过来
 
 ###### 5、random用法
 
-​		Random A =new Random()
+​		**Random A =new Random()**
 
 ​		int num =A.Next(9)-----Next函数从0-int开始算	
 
@@ -187,6 +187,8 @@ math.sin/cos/tan（x） 求角度
 
 ​	}
 
+​	注意：变量如果是数组或字典的话，类型要填和集合类型相同的
+
 # 5day
 
 ### 1、containskey
@@ -201,7 +203,7 @@ math.sin/cos/tan（x） 求角度
 
 ​	格式：A.containsValue(指定的值)
 
-### 3、字典keys
+### 3、字典keys  
 
 ​	作用：获取所有键的集合
 
@@ -213,3 +215,116 @@ math.sin/cos/tan（x） 求角度
 
 ​	格式：A.Value
 
+# 6day
+
+### 1、null
+
+​	概念：关键字，无任何关联
+
+​	用法：string b=null
+
+​		    int? a=null(当int时用？)
+
+### 2、字符串
+
+​	用法：**string.isnullorempty(A)**		（判断字符串是否为空）
+
+​		**string.isnullorwhitespace(A)**		（判断字符串是否为null或空格）
+
+​		**A.substring（开始下标至结尾）** 		（从下标开始截取所填个数）
+
+​		**A.startwith**	**A.endwith**			（判断字符串中是否以所填数据开头/结尾）
+
+​		**A.Toupper	A.Tolower			（字符串字母转换成大写）
+
+​		**A.Trim（首尾）	A.TrimStart（首）	A.TrimEnd**（尾）（删除首尾所填的字符或空格）
+
+​		**A.split**（[‘,’，‘.’]）（用中括号可以增加需要分割的符号标记），（‘,’,2(分割的份数)）
+
+### 3、正则
+
+​	符号：. 、\d 、\D、 \w 、\W、\s、 \S、 []、 [^] 、*、 +、 ?、 {m}、 {m,}、 {m,n} 、^、 $ 、|、 [\u4e00-		u9fa5] 、\、(?)、match.A.Groups[]
+
+# 7day
+
+​			
+
+**1**、**类型转换**：int、double、tostring、toarray、tolist
+
+**2、数据加密**：通过密码转成对应文字的下标进行输出
+
+**3**、**数字转汉字**：先将数字转成汉字数组对应的下标
+
+​			     再从末尾开始循环取从个位开始的下标（注意逻辑）
+
+​			      再将数字+单位+原数字（因为从后面开始所以放后面）
+
+​				最后分析0和！0、多0的情况再用正则筛选，判断末尾是否为0，为0就0—截取长度-1的下标
+
+**4**、**数字格式化**：tostring（C/c、D/d、E/e、F/f、N/n、P/p、X/x、0、，）
+
+**5**、**时间对象**：DateTime.new(获取时间)、data.Year、data.Month、data.Day、data.Hour、data.Minute、data.second、data.millisecond、时间戳（1970-1-1 8：0：0）
+
+**6、日期格式化**：D/d、F/f、T/t、g、G、M/m、Y/y、U、R/r
+
+**7、JSON序列化**：WriteIndented(美化)、Allowtrailingcommas（允许逗号）、string.json
+
+**8、二维、多维数组**：[a,b]、【行】【列】
+
+
+
+# 8day
+
+
+
+**1、函数**：	var  名称    =（）=>{}							无返回值（return）
+
+​			action<泪下> 名称 =（）=>{}						无返回值
+
+​			void 名称（）									无返回值
+
+​			类型	名称（参数）							有返回值
+
+​			func<参数类型，返回值类型,返回值>函数名=>{}		(有返回值)
+
+​			func<参数类型，类型,返回值类型>函数名=delegate(){}	(有返回值)
+
+​			delegate	类型	（类型   名，n类型，n名）		(有返回值)
+
+​			func函数不能用out
+
+**2、return作用**	输出结果、中断后面代码运行（包括循环）
+
+**3、抛出数据**	类型	名称（参数，out   类型    变量名）将out的变量抛到外面用	
+
+**4、异常处理**	try—catch	try—catch(n个)—finally	try—finally	+ex.Message	ex.StackTrace
+
+# 9day
+
+1**、委托:**	先定义好一个函数变量名格式放在命名空间再用一个函数定义相同类型变量作用最后再用一个函数调用
+
+
+
+**2、多播：**	在委托的基础上再另加作用函数最后的函数+=即可
+
+**3、值类型**：int、double、float、bool、char、byte、short、long、decimal、struct；变量和值都存在栈中，			栈中的变量存的是值
+
+**4、引用类型**：string、数组、class（自定义类）、List<T>、Dictionary<TKey,TValue> 等，此时栈中变量存的是			值在堆中的地址，变量通过地址找到值；字符串不可变
+
+**5、parama**:	调用时可以自动翻译成数组，而数组的类型在函数内定义即可；注意：parama必须写在参数列表的最后一位, 且只能有一个
+
+**6、ref**：	ref定义的变量被调用的是地址，当被调用更改时原来的变量也会更改方便内外更改（用在引用类型时为强行绑定）
+
+**7、out**：	需要给out的变量赋值，向外抛出数据传递的是变量的地址
+
+**8、lambda**：	箭头函数的极简只有一个参数时，可以省略小括号
+
+方法体只有一行时，可以省略大括号和 return；如果函数体有多行，大括号和 return不能省略
+
+**9、元组**：	函数定义中括号内函数的值可以为多类型，但括号内要二个及以上	场景：返回多值、解构赋值、方法参数、配合list和字典
+
+**10、回调函数**:	函数当参数用，当函数想用另一个函数的值时，值按照想用函数值格式即可
+
+**11、list高级**	find、findlast、findal、findindex、findlastindex、exists、trueforall、foreach	convertall、removeall、sort
+
+​	

@@ -195,6 +195,39 @@ namespace Day2
                 new Dictionary<string,dynamic>(){ }
 
             };
+            //复习
+            //字典
+            Dictionary<string, dynamic> zidian = new Dictionary<string, dynamic>()
+            {
+                ["牛牛牛"] = "我",
+                ["age"] = 009,
+                ["游戏"] = "王者",
+                ["第二人格"]=new Dictionary<string, dynamic>()
+                {
+                    ["不牛"] = "我",
+                    ["age"] = 008,
+                    ["游戏"] = "瓦",
+                }
+            };
+            Console.WriteLine(zidian["牛牛牛"]);//输出结果
+            Console.WriteLine(zidian["第二人格"]["游戏"]);//输出第二层
+            zidian.TryGetValue("牛牛牛", out dynamic d);//获取字典中键名对应的键值
+            Console.WriteLine(d);
+
+            zidian["牛牛牛"] = "你";//修改键值
+            Console.WriteLine(zidian["牛牛牛"]);
+            zidian.Remove("age");//删除某数据
+           // Console.WriteLine(zidian["age"]);//因为数据已被删除，所以报错
+
+            Console.WriteLine(zidian.ContainsKey("牛牛牛"));//检验字典中是否包含所填键名
+            Console.WriteLine(zidian.ContainsValue("你"));//检验字典中是否包含所填键名
+            Console.WriteLine(zidian.ContainsValue("我"));//因为前面已经修改键值了所以为false
+            Console.WriteLine(zidian["第二人格"].Remove("age"));//删除键名对应的键值
+
+            dynamic jihe11 = zidian.Keys;//获取字典键名的集合（集合、数组等要forearm遍历输出）
+            foreach(dynamic i in jihe11) Console.WriteLine(i);
+
+
 
 
 

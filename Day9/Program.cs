@@ -163,35 +163,40 @@ namespace Day9
             });
             Console.WriteLine(a7);
             // ForEach: 输出每个的 名字-年龄-薪水
-            foreach (dynamic i in list)
-            {
-                Console.WriteLine($"{i["name"]}-{i["age"]}-{i["salary"]}");
-            }
+            //foreach (dynamic i in list)
+            //{
+            //    Console.WriteLine($"{i["name"]}-{i["age"]}-{i["salary"]}");
+            //}
+           list.ForEach(x => Console.WriteLine($"{x["name"]}-{x["age"]}-{x["salary"]}"));
             // ConvertAll: 映射得到一个所以薪水的list
             dynamic a8 = list.ConvertAll(n => n["salary"]);
-            foreach(dynamic i in a8) Console.WriteLine(i);
+                        // foreach(dynamic i in a8) Console.WriteLine(i);
             //TrueForAll: 判断是否都成年
             bool a9 = list.TrueForAll(n => n["age"] > 18);
-            Console.WriteLine(a9);
+                        // Console.WriteLine(a9);
 
             //作业二
             var mum = (string a) =>
             {
-                int count = 0;
-                string i = "";
-                char ii;
-                Dictionary<string, int> number = new Dictionary<string, int>();
-                
-                for (int i1 = 0; i1 < a.Length; i1++)
+
+                Dictionary<char, int> number = new Dictionary<char, int>();
+                int count=1;
+                foreach (char i in a)
                 {
-                    ii = a[i1];
-                    if (a[i1].ToString().IndexOf(ii) == a[i1].ToString().LastIndexOf(ii))
-                    { i += a[i1]; }
-
+                    if (number.ContainsKey(i))
+                    {
+                        number[i] ++;
+                    }
+                    else
+                    {
+                        number[i] = 1;
+                    }
                 }
-
+                foreach(dynamic i in number) Console.WriteLine(i);
                 return number;
             };
+            mum("gwgwgwegd");
+
         }
     }
 }

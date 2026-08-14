@@ -311,7 +311,7 @@ math.sin/cos/tan（x） 求角度
 
 **4、引用类型**：string、数组、class（自定义类）、List<T>、Dictionary<TKey,TValue> 等，此时栈中变量存的是			值在堆中的地址，变量通过地址找到值；字符串不可变
 
-**5、parama**:	调用时可以自动翻译成数组，而数组的类型在函数内定义即可；注意：parama必须写在参数列表的最后一位, 且只能有一个
+**5、params**:	调用时可以自动翻译成数组，而数组的类型在函数内定义即可；注意：parama必须写在参数列表的最后一位, 且只能有一个
 
 **6、ref**：	ref定义的变量被调用的是地址，当被调用更改时原来的变量也会更改方便内外更改（用在引用类型时为强行绑定）
 
@@ -327,4 +327,19 @@ math.sin/cos/tan（x） 求角度
 
 **11、list高级**	find、findlast、findal、findindex、findlastindex、exists、trueforall、foreach	convertall、removeall、sort
 
-​	
+# 10day
+
+1、文件路径：绝对路径、相对路径
+
+2、文件操作：file.（readalltext、writealltext、appendalltext、exits、delete、copy、move
+
+3、目录操作：directory.（exists、createdirectory、delete、getfiles、getdirectory、GetDirectories(path, "*", 			earchOption.AllDirectories);）
+
+4、目录操作二：“*”、“？”、SearchOption.TopDirectoryOnly
+
+5、路径处理：path.（combine、getfilename、getextension、getdirectoryname）
+
+6、linQ:A.（Where、Select、Where+Select、OfType、OrderBy、OrderByDescending、ThenBy、DistinctBy、GroupBy、FirstOrDefault、LastOrDefault、Any、All）
+
+7、聚合函数：A.(Count、Sum、Average、Max、Min) 
+

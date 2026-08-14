@@ -480,7 +480,7 @@ Console.WriteLine(a.Item1); // 99
 #### 单个元素的元组特殊写法
 
 ```csharp
-var singleTuple = (1,);  // 带逗号=>元组 以区别于普通括号表达式
+var singleTuple = new ValueTuple(1);  
 var justNumber = (1);    // 仅仅是数字1，不是元组
 ```
 
@@ -1016,6 +1016,75 @@ File.Move("old.txt","new.txt");
 例：
 
 ```c#
+// IO文件操作            
+// 文件路劲: 绝对路径和相对路径
+// 绝对路径:  按照文件在计算机中存储的位置,根据盘符一直到文件所在位置
+// 相对路径:  程序执行所在位置目录 相对去找到的文件路径
+//  相对路径中:
+//      ./  表示在当前目录下的
+//      ../ 表示在上一级目录下的
+//      ../../  ====> 上一级的上一级目录
+// 路径中的路径   \ 和 /
+// winodws系统下 \
+// unix/linux 下的  /
+// 字符串中的  \ 具有转义作用: 可以将一些字符转义为具有特殊含义的字符 比如: \t  \n
+// 在字符换串前使用@ 修饰  那么字符中的\就不会转义
+//Console.WriteLine("aaaanbbbb");
+//Console.WriteLine("aaaa\nbbbbcccddd");
+//Console.WriteLine(@"aaaa\nbbbbcccddd");
+
+// 读文件,参数  文件路径; 以字符串的形式 返回读取的内容
+// 如果找不到文件则报错
+//var path1 = @"C:\Users\leon\Desktop\10day\04-资料\test.log";
+//var path1 = @"C:\Users\leon\Desktop\10day\04-资料\test666.log";
+//var path1 = "./test.log";
+//var res = File.ReadAllText(path1);
+//Console.WriteLine(res);
+//Console.ReadLine();
+
+// WriteAllText写文件==> 向文件中写入数据(覆盖式写入)
+//var path1 = @"C:\Users\leon\Desktop\10day\04-资料\test.log";
+//File.WriteAllText(path1,"hello");
+
+// 如果文件不存在则会创建文件  并写入内容
+//var path1 = @"C:\Users\leon\Desktop\10day\04-资料\day10.log";
+//File.WriteAllText(path1,"hello");
+
+// 如果目录不存在 则报错
+//var path1 = @"C:\Users\leon\Desktop\10\04-\day10.log";
+//File.WriteAllText(path1,"hello");
+
+// AppendAllText 追加文件内容, 不会覆盖
+//var path1 = @"C:\Users\leon\Desktop\10day\04-资料\day10.log";
+//File.AppendAllText(path1,"C# is very good! \n");
+
+// 如果文件不存在,会创建然后写入
+//var path1 = @"C:\Users\leon\Desktop\10day\04-资料\error.log";
+//File.AppendAllText(path1, "C# is very good! \n");
+
+
+// Exists判断文件是否存在
+//File.Exists(文件路径)
+//bool res = File.Exists(@"C:\Users\leon\Desktop\10day\04-资料\error.log");
+//bool res = File.Exists(@"C:\Users\leon\Desktop\10day\04-资料\error66.log");
+//Console.WriteLine(res);
+
+// Copy 复制文件 (如果复制后的文件已经存在,则报错)(同名报错)
+//var path1 = @"C:\Users\leon\Desktop\10day\04-资料\error.log";
+////var newpath = @"C:\Users\leon\Desktop\10day\04-资料\err.log";
+//var newpath = @"C:\Users\leon\Desktop\10day\04-资料\err666.log";
+//File.Copy(path1,newpath);
+
+// Delete 删除文件
+//var path2 = @"C:\Users\leon\Desktop\10day\04-资料\err666.log";
+//File.Delete(path2);
+
+// Move 移动文件
+//var path1 = @"C:\Users\leon\Desktop\10day\04-资料\err.log";
+//var path2 = @"C:\Users\leon\Desktop\10day\04-资料\data\err999.log";
+//File.Move(path1, path2);
+
+// 书写函数 实现写入日志操作, 日志内容: 输入内容+日期
 
 ```
 
@@ -1047,7 +1116,7 @@ GetDirectories(path, "*", ...);
 // 匹配名字以book开头的文件夹，例如 book01、bookdata
 GetDirectories(path, "book*", ...);
 
-// 匹配名称一共4位，前两位是log，后面任意2字符：log01、logaabb
+// 匹配名称一共4位，前三位是log，后面任意2字符：log01、logaabb
 GetDirectories(path, "log??", ...);
 
 // 例：
@@ -1060,10 +1129,75 @@ Directory.GetFiles(path, "*.json", SearchOption.TopDirectoryOnly);
 
 参数3：`SearchOption.TopDirectoryOnly` 默认值：只查找一级目录
 
+例:
+
+```C#
+// 目录操作(文件夹)
+// 判断目录是否存在
+//bool isExists = Directory.Exists("./data");
+//Console.WriteLine(isExists);
+
+// 创建文件夹
+//Directory.CreateDirectory("./data");
+//Directory.CreateDirectory("./log/data");
+
+// 删除文件夹
+//Directory.Delete("./log/data");
+//Directory.Delete("./log");
+
+// 第二个参数为true 则不管是是否空文件夹 都删除
+//Directory.Delete("./log",true);
+
+// 获取文件夹下的所有文件
+//string[] files = Directory.GetFiles("./");
+//foreach (string file in files) Console.WriteLine(file);
+
+// 获取文件夹下的所有文件夹
+//string[] dirs = Directory.GetDirectories("./");
+//foreach (string file in dirs) Console.WriteLine(file);
+
+//获取文件夹下的所有文件夹(包括子目录中)
+//string[] dirs = Directory.GetDirectories("./","*",SearchOption.AllDirectories);
+//foreach (string file in dirs) Console.WriteLine(file);
+
+// 参数2 是匹配规则
+//string[] dirs = Directory.GetDirectories("./","log*");
+//foreach (string file in dirs) Console.WriteLine(file);
+
+//string[] dirs = Directory.GetDirectories("./", "log??");
+//foreach (string file in dirs) Console.WriteLine(file);
+
+// 参数3：SearchOption.TopDirectoryOnly 默认值：只查找一级目录
+// SearchOption.AllDirectories  表示查找所有(所有后代目录)
+
+
+// 获取文件夹下的文件 也有多个参数
+//string[] files = Directory.GetFiles("./","day*",SearchOption.AllDirectories);
+//foreach (string file in files) Console.WriteLine(file);
+```
+
+
+
 案例：判断一个路径是文件还是文件夹
 
 ```c#
-
+// 定义一个函数, 一个参数(接收路径), 返回值0 表示啥也不是,1是文件,2是文件夹
+Func<string, int> isFileOrDir = path =>
+{
+    // 说明path是文件
+    if (File.Exists(path)) return 1;
+    // 说明path是目录
+    if (Directory.Exists(path)) return 2;
+    return 0;
+};
+string[] resArr = ["啥也不是", "是文件", "是文件夹"];
+//int res = isFileOrDir("./");
+//int res = isFileOrDir("./abc");
+//int res = isFileOrDir("./content.log");
+//string path1 = @"D:\demo\day10\day10\bin\Debug\net8.0";
+//string path1 = @"D:\demo\day10\day10\bin\Debug\net8.0\abcder";
+//int res = isFileOrDir(path1);
+//Console.WriteLine(resArr[res]);
 ```
 
 
@@ -1071,7 +1205,50 @@ Directory.GetFiles(path, "*.json", SearchOption.TopDirectoryOnly);
 案例：获取目录下所有目录和文件（一级）
 
 ```c#
+// 封装一个函数 一个参数(接收路径), 返回值 List<string>
+Func<string, List<string>> getFileAndDir = path =>
+{
+    List<string> resList = [];
+    // 判断路径是否是 目录 ===> 使用刚刚书写的函数
+    //  如果不是目录则 手动抛出一个异常
+    if (isFileOrDir(path) != 2) throw new Exception("传递的参数有误,必须要是目录路径");
+    // 获取目录下的所有文件
+    string[] files = Directory.GetFiles(path);
+    // 将得到 files数组添加到 list中
+    resList.AddRange(files);
 
+    // 获取所有的目录
+    string[]  dirs = Directory.GetDirectories(path);
+    resList.AddRange(dirs);
+    return resList;
+};
+
+//var res = getFileAndDir("./");
+//var res = getFileAndDir(@"D:\视觉02");
+//foreach (var item in res) Console.WriteLine(item);
+
+// getFileAndDir 返回值优化: 获取的文件夹和文件区分开
+Func<string, Dictionary<string, string[]>> getFileAndDir = path =>
+{
+    var resDic = new Dictionary<string, string[]>();
+    if (isFileOrDir(path) != 2) throw new Exception("传递的参数有误,必须要是目录路径");
+    // 获取目录下的所有文件
+    string[] files = Directory.GetFiles(path);
+    resDic["files"] = files;
+
+    // 获取所有的目录
+    string[] dirs = Directory.GetDirectories(path);
+    resDic["dirs"] = dirs;
+    return resDic;
+};
+
+var res = getFileAndDir("./");
+foreach (var item in res)
+{
+    Console.WriteLine(item.Key);
+    foreach (var item2 in item.Value) Console.WriteLine(item2);
+    Console.WriteLine("-----------------------");
+}
 ```
 
 ### 3、路径处理
@@ -1093,6 +1270,23 @@ Path.GetDirectoryName(@"D:\a\book.json");
 例：
 
 ```c#
+// 拼接路径  自动适配Windows斜杠，不要自己手写 \ /
+//var res = Path.Combine(@"D:\a\b", "c", "book.json");
+//Console.WriteLine(res);
 
+// 获取路径中 完整的文件名
+//var path = @"D:/demo/ab/ef/book.json";
+//var res = Path.GetFileName(path);
+//Console.WriteLine(res); // book.json
+
+// 获取路径中 文件后缀
+//var path = @"D:/demo/ab/ef/book.json";
+//var res = Path.GetExtension(path);
+//Console.WriteLine(res); // .json
+
+// 获取路径中的 目录路径
+var path = @"D:/demo/ab/ef/book.json";
+var res = Path.GetDirectoryName(path);
+Console.WriteLine(res); // D:\demo\ab\ef
 ```
 

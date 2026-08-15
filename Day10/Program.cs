@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using System.Globalization;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using System.Threading.Channels;
 
 namespace Day10
@@ -190,7 +191,87 @@ namespace Day10
                     }
                     }
             };
-            zuce("D:/个人信息/新建文本文档 (2).json");
+            // zuce("D:/个人信息/新建文本文档 (2).json");
+            Action writelog = () =>
+            {
+                string a = "";
+                Console.WriteLine("请输入用户名");
+                var username = Console.ReadLine();
+                Console.WriteLine("密码");
+                var password = Console.ReadLine();
+                var str = username + "=====" + password + "\n";
+                File.AppendAllText(a, str);
+
+            };
+
+            //作业二
+            
+
+                var usernamereg = @"^[a-zA-Z][a-zA-Z0-9]{3,14}$";
+                var passwordreg = @"^\S{4,12}$";
+                string paths = "./user.json";
+                List<Dictionary<string, dynamic>> list = new();
+            
+                var opnion = new JsonSerializerOptions
+                {
+                    WriteIndented = true,
+                    AllowTrailingCommas = true,
+                };
+                string json = JsonSerializer.Serialize(list, opnion);
+                string newjson = "";
+                Func<string, string, string> resister = (username, password) =>
+                {
+                    if (!Regex.IsMatch(username, usernamereg) || !Regex.IsMatch(password, passwordreg)) return "用户或密码格式错误";
+                    Dictionary<string, dynamic> userlist = new Dictionary<string, dynamic>()
+                    {
+                        ["username"] = username,
+                        ["password"] = password,
+                        ["data"] = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()
+                    };
+                    if (!File.Exists(paths))
+                    {
+                        list.Add(userlist);
+                        string json = JsonSerializer.Serialize(list, opnion);
+                        File.WriteAllText(paths, json);
+                    }
+                    if (File.Exists(paths))
+                    {
+                        var json1 = File.ReadAllText(paths);
+                        list = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(json1);
+                        bool countexit = list.Exists(n => n["username"].ToString() == username);
+                        if (countexit == true) Console.WriteLine("用户已注册");
+                    }
+                    return "注册成功";
+                };
+            
+                string num = "";
+                while (num!="0")
+                {
+                    Console.WriteLine("===用户管理===");
+                    Console.WriteLine("1、用户注册");
+                    Console.WriteLine("2、用户登录");
+                    Console.WriteLine("0、退出");
+                    num = Console.ReadLine();
+                    switch (num)
+                    {
+                        case "1":
+                            Console.WriteLine("请输入用户名");
+                            string username = Console.ReadLine();
+                            Console.WriteLine("请输入密码");
+                            string password = Console.ReadLine();
+                        Console.WriteLine(resister(username,password));
+                        
+                            break;
+                        case "2":
+
+                            break;
+                        case "3":
+
+                            break;
+                    }
+
+                }
+            
            
         }
     }

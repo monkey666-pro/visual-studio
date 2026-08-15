@@ -279,13 +279,13 @@ math.sin/cos/tan（x） 求角度
 
 **1、函数**：	var  名称    =（）=>{}							无返回值（return）
 
-​			action<泪下> 名称 =（）=>{}						无返回值
+​			action<类型> 名称 =（）=>{}						无返回值
 
 ​			void 名称（）									无返回值
 
-​			类型	名称（参数）							有返回值
+​			类型	名称（参数）{}							有返回值
 
-​			func<参数类型，返回值类型,返回值>函数名=>{}		(有返回值)
+​			func<参数类型，返回值类型,返回值>函数名=()=>{}		(有返回值)
 
 ​			func<参数类型，类型,返回值类型>函数名=delegate(){}	(有返回值)
 
@@ -325,7 +325,7 @@ math.sin/cos/tan（x） 求角度
 
 **10、回调函数**:	函数当参数用，当函数想用另一个函数的值时，值按照想用函数值格式即可
 
-**11、list高级**	find、findlast、findal、findindex、findlastindex、exists、trueforall、foreach	convertall、removeall、sort
+**11、list高级**	find、findlast、findall、findindex、findlastindex、exists、trueforall、foreach	convertall、removeall、sort
 
 # 10day
 

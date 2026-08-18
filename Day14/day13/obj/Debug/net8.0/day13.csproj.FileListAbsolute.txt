@@ -1,0 +1,14 @@
+D:\视觉02\13day\02-代码\day13\day13\bin\Debug\net8.0\day13.exe
+D:\视觉02\13day\02-代码\day13\day13\bin\Debug\net8.0\day13.deps.json
+D:\视觉02\13day\02-代码\day13\day13\bin\Debug\net8.0\day13.runtimeconfig.json
+D:\视觉02\13day\02-代码\day13\day13\bin\Debug\net8.0\day13.dll
+D:\视觉02\13day\02-代码\day13\day13\bin\Debug\net8.0\day13.pdb
+D:\视觉02\13day\02-代码\day13\day13\obj\Debug\net8.0\day13.GeneratedMSBuildEditorConfig.editorconfig
+D:\视觉02\13day\02-代码\day13\day13\obj\Debug\net8.0\day13.AssemblyInfoInputs.cache
+D:\视觉02\13day\02-代码\day13\day13\obj\Debug\net8.0\day13.AssemblyInfo.cs
+D:\视觉02\13day\02-代码\day13\day13\obj\Debug\net8.0\day13.csproj.CoreCompileInputs.cache
+D:\视觉02\13day\02-代码\day13\day13\obj\Debug\net8.0\day13.dll
+D:\视觉02\13day\02-代码\day13\day13\obj\Debug\net8.0\refint\day13.dll
+D:\视觉02\13day\02-代码\day13\day13\obj\Debug\net8.0\day13.pdb
+D:\视觉02\13day\02-代码\day13\day13\obj\Debug\net8.0\day13.genruntimeconfig.cache
+D:\视觉02\13day\02-代码\day13\day13\obj\Debug\net8.0\ref\day13.dll

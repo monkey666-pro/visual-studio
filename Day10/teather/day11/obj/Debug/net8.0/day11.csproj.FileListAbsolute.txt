@@ -1,0 +1,14 @@
+D:\demo\day11\day11\bin\Debug\net8.0\day11.exe
+D:\demo\day11\day11\bin\Debug\net8.0\day11.deps.json
+D:\demo\day11\day11\bin\Debug\net8.0\day11.runtimeconfig.json
+D:\demo\day11\day11\bin\Debug\net8.0\day11.dll
+D:\demo\day11\day11\bin\Debug\net8.0\day11.pdb
+D:\demo\day11\day11\obj\Debug\net8.0\day11.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\day11\day11\obj\Debug\net8.0\day11.AssemblyInfoInputs.cache
+D:\demo\day11\day11\obj\Debug\net8.0\day11.AssemblyInfo.cs
+D:\demo\day11\day11\obj\Debug\net8.0\day11.csproj.CoreCompileInputs.cache
+D:\demo\day11\day11\obj\Debug\net8.0\day11.dll
+D:\demo\day11\day11\obj\Debug\net8.0\refint\day11.dll
+D:\demo\day11\day11\obj\Debug\net8.0\day11.pdb
+D:\demo\day11\day11\obj\Debug\net8.0\day11.genruntimeconfig.cache
+D:\demo\day11\day11\obj\Debug\net8.0\ref\day11.dll

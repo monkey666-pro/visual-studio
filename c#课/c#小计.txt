@@ -329,17 +329,93 @@ math.sin/cos/tan（x） 求角度
 
 # 10day
 
-1、文件路径：绝对路径、相对路径
+### 1、文件路径：
 
-2、文件操作：file.（readalltext、writealltext、appendalltext、exits、delete、copy、move
+​	绝对路径、相对路径
 
-3、目录操作：directory.（exists、createdirectory、delete、getfiles、getdirectory、GetDirectories(path, "*", 			earchOption.AllDirectories);）
+### 2、文件操作：
 
-4、目录操作二：“*”、“？”、SearchOption.TopDirectoryOnly
+​	file.（readalltext、writealltext、appendalltext、exits、delete、copy、move
 
-5、路径处理：path.（combine、getfilename、getextension、getdirectoryname）
+### 3、目录操作：
 
-6、linQ:A.（Where、Select、Where+Select、OfType、OrderBy、OrderByDescending、ThenBy、DistinctBy、GroupBy、FirstOrDefault、LastOrDefault、Any、All）
+​	directory.（exists、createdirectory、delete、getfiles、getdirectory、GetDirectories(path, "*", 			earchOption.AllDirectories);）
 
-7、聚合函数：A.(Count、Sum、Average、Max、Min) 
+### 4、目录操作二：
+
+​	“*”、“？”、SearchOption.TopDirectoryOnly
+
+### 5、路径处理：
+
+​	path.（combine、getfilename、getextension、getdirectoryname）
+
+### 6、linQ:A.
+
+​	（Where、Select、Where+Select、OfType、OrderBy、OrderByDescending、ThenBy、DistinctBy、GroupBy、FirstOrDefault、LastOrDefault、Any、All）
+
+### 7、聚合函数：
+
+​	A.(Count、Sum、Average、Max、Min) 
+
+# 11day
+
+### 1、类（修饰符+class+类名{}}）
+
+​	修饰符：public、protect（当前类）、internal（当前项目）、private（类内）、“static”
+
+​	实例化：new
+
+​		**构造函数**（修饰符+类名）：实例构造函数（每次实例化对象时会自动执行实例构造函数、用于实例属性赋值）、静态构造函数（第一次实例化对象时会执行一次后续不执行、用于静态属性赋值）、私有构造函数（外部不能执行new，一个类只有一个实例对象）
+
+​		**继承**（子类：父类）：子承父类，可改写再执行
+
+​		**多态**：1、父类用virtual标记要修改的方法，子类override标记修改
+
+​		：2、同名但参数不同，调用可根据参数设置调用
+
+### 2、疑惑点：
+
+​		方法：类内用非类名的函数（提供某作用）
+
+​		属性：类内定义的变量
+
+​		实例：哪个变量使用new 那个变量就是实例也是对象
+
+# 12day
+
+### 1、抽象类（abstrct）
+
+​	继承抽象类后必须用override实现抽象父类的方法
+
+### 2、接口（interface）
+
+​	相当于负责定义完成某个功能所用的参数，具体使用参数则通过实例类解决，实例类也是通过：继承接口，可连接多接口实现多态
+
+### 3、静态类
+
+​	相当于一个工具库封装好方法，实例对象直接用工具就行；不能被实例化、继承
+
+### 4、密封类（sealed）
+
+​	当一个子类不想让下一个子类继承时才能用
+
+​	sealed class Person
+
+### 5、this
+
+​	this只在类中可以使用，代表当前实例对象本身（作用类方法中区分属性和参数将当前实例对象传递给其他方法）
+
+### 6、访问器
+
+​	在类内定义一个属性，用来整理get从实例对象获得的值，整理完后set中的value就是整理完的值，最后通过value输出
+
+13day
+
+1、命名空间
+
+2、结构体（struct）
+
+3、异步代码（async、await）
+
+4、枚举（enum）
 

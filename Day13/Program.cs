@@ -1,71 +1,14 @@
 ﻿using System;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 
-namespace Day13
+namespace Day14
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //回调函数
-            List<int> filete(List<int> arr, Func<int, bool> panduan)
-            {
-                List<int> newlist = new List<int>();
-                foreach (var item in arr)
-                {
-                    if (panduan(item)) newlist.Add(item);
-                }
-                return newlist;
-            }
-            List<int> list = new List<int>() { 1, 2, 30, 4, 5, 6, 70 };
-            var newlist = filete(list, (item) => item > 10);
-            foreach (dynamic i in newlist) Console.WriteLine(i);
-
-
-            //类
-            animal name = new animal();
-            Console.WriteLine(name.Name);
-            name.Name = "fwf";
-            Console.WriteLine(name.Name);
-            animal run = new animal();
-            Console.WriteLine(run.Name);
-            run.Name = "==========";
-            animal dog = new animal();
-            Console.WriteLine(dog.Name);
-            dog.Name = "旺财";
-            Console.WriteLine($"{dog.Name}{run.Name}");
-            dog.run();
-            //person p1 = new person();
-            //Console.WriteLine(p1.Name);
-            //Console.WriteLine(p1.Age);//protected无法访问
-            person p1 = new person("ssd", 12, 4444, false, true);
-            Console.WriteLine(p1.Name + p1.Isman);
-            Console.WriteLine(person.Islive);
-            //person p2 = new person()//普通构造函数
-            //{
-            //    Name = "ff",
-            //    Id = 99,
-            //    Isman = false
-            //};
-            var c1 = new camera();
-            c1.connect();
-            c1.disconnect();
-            c1.phone();
-            var m1 = new move();
-
-            m1.connect();
-            m1.Move1();
-            m1.disconnect();
-
-            var p11 = new plc();//多态（1）继承后重写
-            p11.start();
             string num = "";
-
-
-
-
-
-           
             while (num != "0")
             {
                 Console.WriteLine("===图书馆管理===");
@@ -74,12 +17,16 @@ namespace Day13
                 Console.WriteLine("3、编辑书");
                 Console.WriteLine("4、搜索书");
                 Console.WriteLine("5、搜索单本书");
+                Console.WriteLine("6、查看可借的书");
+                Console.WriteLine("7、借书");
+                Console.WriteLine("8、还书");
                 Console.WriteLine("0、退出");
                 num = Console.ReadLine();
-                book bm = new book("./booker.json",new JsonSerializerOptions
+
+                book bm = new book("./booker.json", "./borrowbook.json", new JsonSerializerOptions
                 {
-                    WriteIndented= true,
-                    AllowTrailingCommas= true,
+                    WriteIndented = true,
+                    AllowTrailingCommas = true,
                 });
                 switch (num)
                 {
@@ -91,75 +38,115 @@ namespace Day13
                         Console.WriteLine("类型");
                         var mark = Console.ReadLine();
                         Console.WriteLine("价格");
-                        var price = double.Parse(Console.ReadLine());
-                        Dictionary<string, dynamic> newbook = new()
+                        string price = Console.ReadLine();
+                        var reg = @"^[0-9]+(\.)?[0-9]*$";
+                        if (Regex.IsMatch(price, reg))
                         {
-                            ["name"] = bookname,
-                            ["author"] = author,
-                            ["mark"] = mark,
+                            Dictionary<string, dynamic> newbook = new()
+                            {
+                                ["name"] = bookname,
+                                ["author"] = author,
+                                ["mark"] = mark,
+                                ["isBorrow"] = false,
+                                ["id"] = new Random().NextDouble(),
+                                ["price"] = price
+
+                            };
+
+                            string res = bm.Addbook(newbook);
+                            Console.WriteLine(res);
+                        }
+                        else Console.WriteLine("输入格式有误");
+                            break;
+                    case "2":
+                        Console.WriteLine("请输入书名");
+                        string bookname2 = Console.ReadLine();
+                        var res21=bookname2.Trim();
+                        if (res21.Contains("")) res21.Replace(" ","");
+                        var reg2 = @"^.+$";
+                        if (!Regex.IsMatch(res21, reg2)) Console.WriteLine("格式有误"); 
+                        else
+                        {
+                            var res2 = bm.Deletebook(res21);
+                            Console.WriteLine(res2);
+                        }
+                            break;
+                        
+                    case "3":
+                        Console.WriteLine("请输入要改的书");
+                        var bookname3 = Console.ReadLine();
+                        Console.WriteLine("请输入作者");
+                        var author3 = Console.ReadLine();
+                        Console.WriteLine("类型");
+                        var mark3 = Console.ReadLine();
+                        Console.WriteLine("价格");
+                        var price3 = double.Parse(Console.ReadLine());
+                        Dictionary<string, dynamic> newbook3 = new()
+                        {
+                            ["name"] = bookname3,
+                            ["author"] = author3,
+                            ["mark"] = mark3,
                             ["isBorrow"] = false,
                             ["id"] = new Random().NextDouble(),
-                            ["price"] = price
+                            ["price"] = price3
 
                         };
-                        string res = bm.Addbook(newbook);
-                        Console.WriteLine(res);
-                        break;
-                    case "2":
-
-                        break;
-                    case "3":
-
+                        var res3 = bm.Editbook(newbook3);
+                        Console.WriteLine(res3);
                         break;
                     case "4":
-                        Console.WriteLine("请输入书名");
-                        var bookname4 = Console.ReadLine();
-                        string res4 = bm.searchtbook(bookname4);
-                        Console.WriteLine(res4);
-                        break;
+                        Console.WriteLine("查询所有图书");
+                        var reslist = bm.searchtbook();
+                        if (reslist.Count == 0)
+                        {
+                            Console.WriteLine("没有书籍，请先添加");
+                        }
+                        else 
+                        {
+                            foreach(var item in reslist)
+                            {
+                                Console.WriteLine($"书名={item["name"]}--作者={item["author"]}-类型{item["mark"]}-id{item["id"]}-价格{item["price"]}--借书情况{item["isBorrow"]}");
+                            }
+                        }
+                            break;
                     case "5":
                         Console.WriteLine("请输入书名");
                         var bookname5 = Console.ReadLine();
-                        Console.WriteLine("请输入作者");
-                        var author5 = Console.ReadLine();
-                        string res5 = bm.searchtbook1(bookname5, author5);
-                        Console.WriteLine(res5);
+                        var res5 = bm.searchtbook1(bookname5);
+                        if (res5.Count == 0) Console.WriteLine("无此书，请先添加");
+                        else
+                        {
+                            Console.WriteLine($"书名：{res5["name"]}-作者：{res5["author"]}-价格{res5["price"]}");
+                        }
+                            break;
+                        case "6":
+                        
+                        var reslis6 = bm.Borrowcount();
+                        foreach(var item in reslis6)
+                        {
+                            Console.WriteLine($"书名={item["name"]}--作者={item["author"]}-类型{item["mark"]}-id{item["id"]}-价格{item["price"]}--借书情况{item["isBorrow"]}");
+                        }
+                        break;
+                    case "7":
+                        Console.WriteLine("请输入要借的书名");
+                        var bookname6 = Console.ReadLine();
+                        var reslis7 = bm.Borrow(bookname6);
+                        Console.WriteLine(reslis7);
+                        ;
+                        break;
+                    case "8":
+                        Console.WriteLine("请输入要借的书名");
+                        var bookname8 = Console.ReadLine();
+                        var reslis8 = bm.returnbook(bookname8);
+                        Console.WriteLine(reslis8);
+                        ;
+                        break;
+                    case "0":
+                        Console.WriteLine("退出");
                         break;
                 }
-
             }
-
+           
         }
-        public void say()
-        {
-            Console.WriteLine("egg我为国家为各位各位");
-        }
-        public void say(string content)
-        {
-            Console.WriteLine("五个五个为我国");
-        }
-        public void say(string aa, string aaa)
-        {
-            Console.WriteLine("wefweffewef");
-        }
-     
     }
-     
-
-
-
- 
-
-    
-    public class animal
-    {
-        public string Name { get; set; }
-        public string decrection { get; set; }
-        static string Live { get; set; }
-        public void run()
-        {
-            Console.WriteLine($"{Name}再跑，描述：{decrection}");
-        }
-    };
-   
 }

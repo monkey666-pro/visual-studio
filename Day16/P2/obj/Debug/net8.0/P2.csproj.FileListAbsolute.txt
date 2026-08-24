@@ -1,0 +1,15 @@
+D:\ning(整体)\WinformApp1\P2\bin\Debug\net8.0\P2.exe
+D:\ning(整体)\WinformApp1\P2\bin\Debug\net8.0\P2.deps.json
+D:\ning(整体)\WinformApp1\P2\bin\Debug\net8.0\P2.runtimeconfig.json
+D:\ning(整体)\WinformApp1\P2\bin\Debug\net8.0\P2.dll
+D:\ning(整体)\WinformApp1\P2\bin\Debug\net8.0\P2.pdb
+D:\ning(整体)\WinformApp1\P2\obj\Debug\net8.0\P2.GeneratedMSBuildEditorConfig.editorconfig
+D:\ning(整体)\WinformApp1\P2\obj\Debug\net8.0\P2.AssemblyInfoInputs.cache
+D:\ning(整体)\WinformApp1\P2\obj\Debug\net8.0\P2.AssemblyInfo.cs
+D:\ning(整体)\WinformApp1\P2\obj\Debug\net8.0\P2.csproj.CoreCompileInputs.cache
+D:\ning(整体)\WinformApp1\P2\obj\Debug\net8.0\P2.sourcelink.json
+D:\ning(整体)\WinformApp1\P2\obj\Debug\net8.0\P2.dll
+D:\ning(整体)\WinformApp1\P2\obj\Debug\net8.0\refint\P2.dll
+D:\ning(整体)\WinformApp1\P2\obj\Debug\net8.0\P2.pdb
+D:\ning(整体)\WinformApp1\P2\obj\Debug\net8.0\P2.genruntimeconfig.cache
+D:\ning(整体)\WinformApp1\P2\obj\Debug\net8.0\ref\P2.dll

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ning(整体)\\WinformApp1\\Day13\\Day13.csproj",
-      "projectName": "Day13",
-      "projectPath": "D:\\ning(整体)\\WinformApp1\\Day13\\Day13.csproj",
+      "projectUniqueName": "D:\\ning(整体)\\WinformApp1\\Day13\\Day14.csproj",
+      "projectName": "Day14",
+      "projectPath": "D:\\ning(整体)\\WinformApp1\\Day13\\Day14.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "D:\\ning(整体)\\WinformApp1\\Day13\\obj\\",
       "projectStyle": "PackageReference",

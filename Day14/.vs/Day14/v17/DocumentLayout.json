@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4723CE81-9E79-4FCD-95BC-5109AB1A4AC9}|Day14.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4723CE81-9E79-4FCD-95BC-5109AB1A4AC9}|Day14.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86CB289F-9E24-4145-B688-E2C8CB034DE8}|Day14.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CB289F-9E24-4145-B688-E2C8CB034DE8}|Day14.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4723CE81-9E79-4FCD-95BC-5109AB1A4AC9}|Day14.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4723CE81-9E79-4FCD-95BC-5109AB1A4AC9}|Day14.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86CB289F-9E24-4145-B688-E2C8CB034DE8}|Day14.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CB289F-9E24-4145-B688-E2C8CB034DE8}|Day14.csproj|solutionrelative:music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CB289F-9E24-4145-B688-E2C8CB034DE8}|Day14.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\http1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CB289F-9E24-4145-B688-E2C8CB034DE8}|Day14.csproj|solutionrelative:http1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "book.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\book.cs",
-              "RelativeDocumentMoniker": "book.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\book.cs",
-              "RelativeToolTip": "book.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwDEAAAANAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "music.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\music.cs",
+              "RelativeDocumentMoniker": "music.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\music.cs",
+              "RelativeToolTip": "music.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T02:34:02.974Z",
+              "WhenOpened": "2026-08-19T08:46:27.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "http1.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\http1.cs",
+              "RelativeDocumentMoniker": "http1.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\http1.cs",
+              "RelativeToolTip": "http1.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T07:36:30.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAuwFcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwBwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T02:33:32.806Z",
+              "WhenOpened": "2026-08-19T06:44:45.156Z",
               "EditorCaption": ""
             }
           ]

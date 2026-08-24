@@ -1,111 +1,48 @@
-﻿using System;
-using System.Text.Json;
-
-namespace Day14
+﻿namespace Day14
 {
+    class res1
+    {
+        public string text { get; set; }
+    }
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            string num = "";
-            while (num != "0")
+            HttpClient hc = new HttpClient();
+            var response = await hc.GetAsync("https://uapis.cn/api/v1/saying");
+            Console.WriteLine(response.Content);
+            string restr = await response.Content.ReadAsStringAsync();
+            Console.WriteLine(restr);
+
+
+            HttpClient hc2 = new HttpClient();
+            byte[] respone = await hc.GetByteArrayAsync("https://cn.bing.com/images/search?view=detailV2&ccid=ZtyrGmDH&id=031B08F856F1C70B3CFBD4D89E570C16D653FC3D&thid=OIP.ZtyrGmDHGuS5970hU7AWpQHaEJ&mediaurl=https://haowallpaper.com/link/common/file/getCroppingImg/16780392500940160&exph=499&expw=890&q=%E5%9B%BE%E7%89%87&ck=28A125D3F3DEECC5ABCDF6A2BC3F1AFF&idpp=rc&form=rc2idp&ajaxhist=0&ajaxserp=0");
+            Person<string, bool> p = new Person<string, bool>()
             {
-                Console.WriteLine("===图书馆管理===");
-                Console.WriteLine("1、增加书");
-                Console.WriteLine("2、删除数");
-                Console.WriteLine("3、编辑书");
-                Console.WriteLine("4、搜索书");
-                Console.WriteLine("5、搜索单本书");
-                Console.WriteLine("0、退出");
-                num = Console.ReadLine();
-                book bm = new book("./booker.json", new JsonSerializerOptions
-                {
-                    WriteIndented = true,
-                    AllowTrailingCommas = true,
-                });
-                switch (num)
-                {
-                    case "1":
-                        Console.WriteLine("请输入书名");
-                        var bookname = Console.ReadLine();
-                        Console.WriteLine("请输入作者");
-                        var author = Console.ReadLine();
-                        Console.WriteLine("类型");
-                        var mark = Console.ReadLine();
-                        Console.WriteLine("价格");
-                        var price = double.Parse(Console.ReadLine());
-                        Dictionary<string, dynamic> newbook = new()
-                        {
-                            ["name"] = bookname,
-                            ["author"] = author,
-                            ["mark"] = mark,
-                            ["isBorrow"] = false,
-                            ["id"] = new Random().NextDouble(),
-                            ["price"] = price
+                x = "haha",
+                y = true
+            };
 
-                        };
-                        string res = bm.Addbook(newbook);
-                        Console.WriteLine(res);
-                        break;
-                    case "2":
-                        Console.WriteLine("请输入书名");
-                        var bookname2 = Console.ReadLine();
-                        var res2 = bm.Deletebook(bookname2);
-                        Console.WriteLine(res2);
-                        break;
-                    case "3":
-                        Console.WriteLine("请输入要改的书");
-                        var bookname3 = Console.ReadLine();
-                        Console.WriteLine("请输入作者");
-                        var author3 = Console.ReadLine();
-                        Console.WriteLine("类型");
-                        var mark3 = Console.ReadLine();
-                        Console.WriteLine("价格");
-                        var price3 = double.Parse(Console.ReadLine());
-                        Dictionary<string, dynamic> newbook3 = new()
-                        {
-                            ["name"] = bookname3,
-                            ["author"] = author3,
-                            ["mark"] = mark3,
-                            ["isBorrow"] = false,
-                            ["id"] = new Random().NextDouble(),
-                            ["price"] = price3
-
-                        };
-                        var res3 = bm.Editbook(newbook3);
-                        Console.WriteLine(res3);
-                        break;
-                    case "4":
-                        Console.WriteLine("查询所有图书");
-                        var reslist = bm.searchtbook();
-                        if (reslist.Count == 0)
-                        {
-                            Console.WriteLine("没有书籍，请先添加");
-                        }
-                        else 
-                        {
-                            foreach(var item in reslist)
-                            {
-                                Console.WriteLine($"书名={item["name"]}--作者={item["author"]}-类型{item["mark"]}-id{item["id"]}-价格{item["price"]}");
-                            }
-                        }
-                            break;
-                    case "5":
-                        Console.WriteLine("请输入书名");
-                        var bookname5 = Console.ReadLine();
-                        var res5 = bm.searchtbook1(bookname5);
-                        if (res5.Count == 0) Console.WriteLine("无此书，请先添加");
-                        else
-                        {
-                            Console.WriteLine($"书名：{res5["name"]}-作者：{res5["author"]}-价格{res5["price"]}");
-                        }
-                            break;
-                    default:
-                        Console.WriteLine("输入有误");
-                        break;
-                }
+        }
+        static public void showlist<T>(List<T>s)
+        {
+            foreach (var it in s)
+            {
+                Console.WriteLine(s);
             }
-           
+        }
+        static void Main(string[] ar, string[]ar1)
+        {
+            
+        }
+    }
+    internal class Person<a, b>
+    {
+        public a x { get; set; }
+        public b y { get; set; }
+        public string info<C, D>(C c,D d)
+        {
+            return $"=={this.x}=={this.y}==";
         }
     }
 }

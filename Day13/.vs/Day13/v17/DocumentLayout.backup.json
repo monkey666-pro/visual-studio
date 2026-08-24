@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day13\\",
+  "WorkspaceRootPath": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE8A4688-C5B0-4DFA-96CD-7E7563F1EAEA}|Day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8A4688-C5B0-4DFA-96CD-7E7563F1EAEA}|Day13.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\day13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|solutionrelative:day13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE8A4688-C5B0-4DFA-96CD-7E7563F1EAEA}|Day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day13\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8A4688-C5B0-4DFA-96CD-7E7563F1EAEA}|Day13.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\day13\\thisclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|solutionrelative:day13\\thisclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE8A4688-C5B0-4DFA-96CD-7E7563F1EAEA}|Day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day13\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8A4688-C5B0-4DFA-96CD-7E7563F1EAEA}|Day13.csproj|solutionrelative:camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\day13\\thisclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|solutionrelative:day13\\thisclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE8A4688-C5B0-4DFA-96CD-7E7563F1EAEA}|Day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day13\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8A4688-C5B0-4DFA-96CD-7E7563F1EAEA}|Day13.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\day13\\abstractclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|solutionrelative:day13\\abstractclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\day13\\interface2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|solutionrelative:day13\\interface2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\day13\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|solutionrelative:day13\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\day13\\sealedclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|solutionrelative:day13\\sealedclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\day14\\day13\\staticclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9605674-4486-4C57-93A2-F1514A3718C5}|day13\\day13.csproj|solutionrelative:day13\\staticclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day13\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day13\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAADwv3gAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T01:22:08.724Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "book.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day13\\book.cs",
-              "RelativeDocumentMoniker": "book.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day13\\book.cs",
-              "RelativeToolTip": "book.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAswEMAAAAiAAAAAAAAAA==",
+              "Title": "ThisClass2.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\ThisClass2.cs",
+              "RelativeDocumentMoniker": "day13\\ThisClass2.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\ThisClass2.cs",
+              "RelativeToolTip": "day13\\ThisClass2.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T08:38:25.852Z",
+              "WhenOpened": "2026-08-19T01:33:17.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "camera.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day13\\camera.cs",
-              "RelativeDocumentMoniker": "camera.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day13\\camera.cs",
-              "RelativeToolTip": "camera.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvw8AAAAkAAAAAAAAAA==",
+              "Title": "ThisClass1.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\ThisClass1.cs",
+              "RelativeDocumentMoniker": "day13\\ThisClass1.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\ThisClass1.cs",
+              "RelativeToolTip": "day13\\ThisClass1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T07:41:28.925Z",
+              "WhenOpened": "2026-08-19T01:30:12.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Interface2.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\Interface2.cs",
+              "RelativeDocumentMoniker": "day13\\Interface2.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\Interface2.cs",
+              "RelativeToolTip": "day13\\Interface2.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T01:20:12.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InterFace1.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\InterFace1.cs",
+              "RelativeDocumentMoniker": "day13\\InterFace1.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\InterFace1.cs",
+              "RelativeToolTip": "day13\\InterFace1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T01:20:11.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SealedClass.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\SealedClass.cs",
+              "RelativeDocumentMoniker": "day13\\SealedClass.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\SealedClass.cs",
+              "RelativeToolTip": "day13\\SealedClass.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T01:18:46.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StaticClass.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\StaticClass.cs",
+              "RelativeDocumentMoniker": "day13\\StaticClass.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\StaticClass.cs",
+              "RelativeToolTip": "day13\\StaticClass.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T01:01:03.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "person.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day13\\person.cs",
-              "RelativeDocumentMoniker": "person.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day13\\person.cs",
-              "RelativeToolTip": "person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Title": "AbstractClass.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\AbstractClass.cs",
+              "RelativeDocumentMoniker": "day13\\AbstractClass.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\AbstractClass.cs",
+              "RelativeToolTip": "day13\\AbstractClass.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwBwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T02:39:13.785Z",
+              "WhenOpened": "2026-08-19T00:53:07.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\Program.cs",
+              "RelativeDocumentMoniker": "day13\\Program.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\Day14\\day13\\Program.cs",
+              "RelativeToolTip": "day13\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwC4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T10:24:48.091Z",
               "EditorCaption": ""
             }
           ]

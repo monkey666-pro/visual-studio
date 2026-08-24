@@ -4,7 +4,23 @@
     "author": "22",
     "mark": "22",
     "isBorrow": false,
-    "id": 0.9271076069055719,
-    "price": 22
+    "id": 0.6950082019146645,
+    "price": "22"
+  },
+  {
+    "name": "23",
+    "author": "23",
+    "mark": "23",
+    "isBorrow": false,
+    "id": 0.5243232057949644,
+    "price": "33.555"
+  },
+  {
+    "name": "44",
+    "author": "44",
+    "mark": "44",
+    "isBorrow": false,
+    "id": 0.5120446733391827,
+    "price": "0.99"
   }
 ]

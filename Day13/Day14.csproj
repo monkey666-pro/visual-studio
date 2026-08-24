@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="day13\**" />
+    <Compile Remove="teacher.BookManger\**" />
+    <EmbeddedResource Remove="day13\**" />
+    <EmbeddedResource Remove="teacher.BookManger\**" />
+    <None Remove="day13\**" />
+    <None Remove="teacher.BookManger\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="day13.md" />
+  </ItemGroup>
+
+</Project>

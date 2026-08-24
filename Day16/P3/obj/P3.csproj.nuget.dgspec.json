@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ning(整体)\\WinformApp1\\P3\\P3.csproj": {}
+    "D:\\ning(整体)\\WinformApp1\\Day16\\P3\\P3.csproj": {}
   },
   "projects": {
-    "D:\\ning(整体)\\WinformApp1\\P3\\P3.csproj": {
+    "D:\\ning(整体)\\WinformApp1\\Day16\\P3\\P3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ning(整体)\\WinformApp1\\P3\\P3.csproj",
+        "projectUniqueName": "D:\\ning(整体)\\WinformApp1\\Day16\\P3\\P3.csproj",
         "projectName": "P3",
-        "projectPath": "D:\\ning(整体)\\WinformApp1\\P3\\P3.csproj",
+        "projectPath": "D:\\ning(整体)\\WinformApp1\\Day16\\P3\\P3.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\ning(整体)\\WinformApp1\\P3\\obj\\",
+        "outputPath": "D:\\ning(整体)\\WinformApp1\\Day16\\P3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.317/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

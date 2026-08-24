@@ -1,32 +1,14 @@
 [
   {
-    "EmpId": 0,
-    "EmpName": null,
-    "Department": null,
-    "Salary": 0
+    "EmpId": 11,
+    "EmpName": "11",
+    "Department": "11",
+    "Salary": 11
   },
   {
-    "EmpId": 0,
-    "EmpName": null,
-    "Department": null,
-    "Salary": 0
-  },
-  {
-    "EmpId": 0,
-    "EmpName": null,
-    "Department": null,
-    "Salary": 0
-  },
-  {
-    "EmpId": 0,
-    "EmpName": null,
-    "Department": null,
-    "Salary": 0
-  },
-  {
-    "EmpId": 44,
-    "EmpName": "44",
-    "Department": "44",
-    "Salary": 44
+    "EmpId": 66,
+    "EmpName": "66",
+    "Department": "66",
+    "Salary": 66
   }
 ]

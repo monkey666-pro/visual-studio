@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 
 namespace P3
@@ -17,10 +18,24 @@ namespace P3
             // 在JSON序列化的时候中文不变
             Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
         };
+
         public string path { get; } = "./emp.json";
 
-        
-        public string AddEm()
+        public string JSON<T>(List<T>list)
+        {
+            File.WriteAllText(path, JsonSerializer.Serialize(list,JsonOpt));
+            return JsonSerializer.Serialize(list);
+        }
+        public void file()
+        {
+            if (!File.Exists(path))
+            {
+                Console.WriteLine("文件不存在");
+                return;
+            }
+        }
+
+        public void AddEm()
         {
 
             Console.WriteLine("请输入员工编号");
@@ -41,22 +56,22 @@ namespace P3
             }
             Employee em = new(Id, Name, Department, Salary);
             //判断是否有重复添加
-            if (list.Exists(item => item.EmpId == Id)) return "员工已存在，请勿重复添加";
+            if (list.Exists(item => item.EmpId == Id))
+            {
+                Console.WriteLine("员工已存在，请勿重复添加");
+                return;
+            }
             list.Add(em);
             //序列化,存文件
-            var newjson = JsonSerializer.Serialize(list, JsonOpt);
-            File.WriteAllText(this.path, newjson);
-            return "新增员工成功";
+            JSON(list);
+            Console.WriteLine("新增员工成功");
+            return ;
         }
         // 查看全部员工
         public void Searchemp()
         {
             // 判断文件是否存在
-            if (!File.Exists(path))
-            {
-                Console.WriteLine("暂时没有员工，请先添加");
-                return;
-                    };
+            file();
             //存在则反序列化进行输出
             string json = File.ReadAllText(path);
             List<Employee> list = JsonSerializer.Deserialize<List<Employee>>(json);
@@ -78,8 +93,7 @@ namespace P3
             list = JsonSerializer.Deserialize<List<Employee>>(json);
             if (!list.Exists(item => item.EmpId == Id)) return "员工不存在，请重新输入";
             list.RemoveAll(item => item.EmpId == Id);
-            var newjson = JsonSerializer.Serialize(list, this.JsonOpt);
-            File.WriteAllText(this.path, newjson);
+            JSON(list);
             return "删除成功";
         }
         // 调整薪资
@@ -97,8 +111,7 @@ namespace P3
             Employee res = list.Find(i => i.EmpId == EmpId);
             if (res == null) return "无该员工";
             res.Salary = Salary;
-            var json1 = JsonSerializer.Serialize(list, JsonOpt);
-            File.WriteAllText(path, json1);
+            JSON(list);
             return "更改成功";
         }
         // 根据薪资筛选员工
@@ -106,11 +119,7 @@ namespace P3
         {
             //先判断文件是否存在
             List<Employee> list1 = new();
-            if (!File.Exists(path))
-            {
-                Console.WriteLine("无记录");
-                return;
-            }
+            file();    
             Console.WriteLine("请输入员工薪资范围");
             double Salary = double.Parse(Console.ReadLine());
             //根据t薪资筛选出来，如果没有就提醒，用新list输出

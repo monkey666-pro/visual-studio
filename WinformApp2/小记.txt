@@ -1,0 +1,25 @@
+#### oneday	
+
+#### twoday	
+
+​	1、一般出现重载问题，大部分是需要参数 
+
+​	2、简单容器：
+
+​		from、panel、groupbox、tabcontrol
+
+​	3、布局容器：
+
+​		flowlayoutpanel、tablelayoutpanel、splitcontainer
+
+​	4、容器控件（control）：
+
+​		add、addrange、remove/+at、clear、setchildindex、getchildindex、contains、indexof
+
+​	5、事件：
+
+​		控件交互（事件源、事件类型、事件处理程序）：先初始化控件并进行事件绑定，多个事件可以通过循环方便绑定（控件.事件类型（click） += 处理行为逻辑的方法）
+
+​	6、常用事件：
+
+​	click、mouse+down/up/move/enter/leave、key+down/press/up、gotfocus、lostfocus

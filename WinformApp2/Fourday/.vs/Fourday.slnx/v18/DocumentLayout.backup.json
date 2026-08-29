@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Fourday\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{161813B2-8635-4A23-947E-1BF6BF35E34E}|Fourday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\fourday\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161813B2-8635-4A23-947E-1BF6BF35E34E}|Fourday.csproj|solutionrelative:form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A4A5844-3D30-FF99-E8B4-41682CE9987B}|Fourday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\fourday\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A4A5844-3D30-FF99-E8B4-41682CE9987B}|Fourday.csproj|solutionrelative:form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161813B2-8635-4A23-947E-1BF6BF35E34E}|Fourday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\fourday\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{161813B2-8635-4A23-947E-1BF6BF35E34E}|Fourday.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Fourday\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{161813B2-8635-4A23-947E-1BF6BF35E34E}|Fourday.csproj|solutionrelative:form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161813B2-8635-4A23-947E-1BF6BF35E34E}|Fourday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\fourday\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161813B2-8635-4A23-947E-1BF6BF35E34E}|Fourday.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A4A5844-3D30-FF99-E8B4-41682CE9987B}|Fourday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\fourday\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4A5844-3D30-FF99-E8B4-41682CE9987B}|Fourday.csproj|solutionrelative:form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4A5844-3D30-FF99-E8B4-41682CE9987B}|Fourday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\fourday\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A4A5844-3D30-FF99-E8B4-41682CE9987B}|Fourday.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,19 +39,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form12.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Fourday\\Form12.cs",
+              "RelativeDocumentMoniker": "Form12.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Fourday\\Form12.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "Form12.cs [\u8BBE\u8BA1]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T01:57:19.019Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form12.cs",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Fourday\\Form12.cs",
               "RelativeDocumentMoniker": "Form12.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Fourday\\Form12.cs",
-              "RelativeToolTip": "Form12.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAkwC8AAAAYAAAAAAAAAA==",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Fourday\\Form12.cs*",
+              "RelativeToolTip": "Form12.cs*",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowCsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-27T12:25:39.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Fourday\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -55,8 +71,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAwBMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T12:21:09.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-27T12:21:09.868Z"
             },
             {
               "$type": "Document",
@@ -67,8 +82,7 @@
               "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Fourday\\Form12.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Form12.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T12:21:01.406Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2026-08-27T12:21:01.406Z"
             }
           ]
         }

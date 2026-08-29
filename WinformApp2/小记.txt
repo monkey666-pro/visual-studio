@@ -23,3 +23,67 @@
 ​	6、常用事件：
 
 ​	click、mouse+down/up/move/enter/leave、key+down/press/up、gotfocus、lostfocus
+
+#### Fourday
+
+​	1、控件.SelectionStart	获取光标位置
+
+​	2、列表控件.item		设置列表框的选项内容
+
+​	3、控件.width/height	获取控件尺寸
+
+​	4、point 变量名=控件.location		相对父容器的坐标
+
+​		控件.location.x==控件.left	控件.location.y==控件.top
+
+​	5、控件.SelectionStart=数字	设置光标位置
+
+​	6、comboBox
+
+​		.SelectedItem	获取具体combox的选项
+
+​		.SelectedIndexChanged	选择项改变事件
+
+​	7、piont a=控件.pointtoscreen鼠标在控件坐标转换在屏幕的坐标a
+
+#### Fiveday
+
+​	1、复选框
+
+​		1、check		获取选中状态true/false
+
+​		2、checkstate	选中状态（选checked、没选unchecked、半选indeterminate）
+
+​		3、事件：checkstatechanged、checkchanged
+
+​	2、窗体方法
+
+​		说明：窗体本身是一个类，如果要用实例化就行了
+
+​		1、窗体实例.shou()显示
+
+​		2、窗体实例.hide()隐藏
+
+​		3、窗体实例.close()关闭
+
+​		4、Application.Exit()退出程序
+
+​	3、Guid.NewGuid()
+
+​		设置id使用，几乎不重复
+
+​	4、父子通信
+
+​		思路：父类通过实例化子类的方法或构造函数对子类的数据进行修改，进而子类将得到的父类数据对控件进行修改（难点）：委托（+=）--父类通过方法+=子类无返回值传参函数可以将子类函数传递的参数传递给父类的函数使用。
+
+​	5、tag
+
+​		每个控件都有（包括容器），可以当作控件无值限制特有的口袋
+
+​	6、知识模糊
+
+​		类的作用：可以当作封装，像list，可以当作list的类型，通过list更好的管理类里封装的内容
+
+​	7、用户控件
+
+​		可以直接将用户控件做好的窗体整体放在窗体中

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "556922d1-790e-4485-b786-5cbe128b9c0a",
+    "Name": "4444",
+    "Author": "1",
+    "Price": 0,
+    "BookLabel": "1",
+    "IsBorrow": false
+  },
+  {
+    "Id": "80572859-822f-41f0-a585-c456d5a8b5ff",
+    "Name": "2",
+    "Author": "22222",
+    "Price": 0,
+    "BookLabel": "33333333",
+    "IsBorrow": false
+  }
+]

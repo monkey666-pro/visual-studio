@@ -1,0 +1,58 @@
+# 在这里可以写操作MySQL的语句
+
+# 新增一条数据
+insert into user(username,password,age,gender) values("张三","123456",12,"女");
+
+# 新增多条数据
+insert into user(username,password,age,gender,create_at) values("李四","123123",13,"男",'2023-10-15 14:35:00'),("王五","123789",14,"女",'2023-10-15 14:35:00');
+
+# 删除数据
+delete from user where username="王五";
+
+# 修改数据
+update user set username="赵六" where id=4;
+
+# 查询数据
+# 所有数据
+select * from user;
+
+# 条件查询
+select * from user where age!=12;
+
+select * from user where id in (1,4);
+
+select * from user where id between 1 and 4;
+
+select * from user where username like '%三%';
+
+select * from user where age=12 or username="李四";
+
+select * from user where username="张三" and age=14;
+
+# 聚合函数
+select sum(age) as sum from user; # 求表中所有年龄的和，且显示的时候，表头叫sum
+
+select max(id) as maxid from user;
+
+select avg(age) from user;
+
+select count(*) as count from user where age=12 or username="李四";
+
+# 排序
+select * from user order by age; # 升序
+
+select * from user order by age desc; # 降序
+
+# 分页
+select * from user limit 0,3; # 1
+select * from user limit 3,3; # 2
+select * from user limit 6,3; # 3
+
+# 分组
+select count(*) as count,banji from user group by banji; # 按照banji字段分组，查询数量和banji
+
+
+select * from user where username like '%1%';
+
+
+

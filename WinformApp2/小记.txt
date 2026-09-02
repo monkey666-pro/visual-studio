@@ -88,8 +88,56 @@
 
 ​		可以直接将用户控件做好的窗体整体放在窗体中
 
-Sevenday
+#### Eightday
 
-​	1、
+​	1、async/await
+
+​		async:修饰函数，返回值可以是：void  task task<t>
+
+​		await:只作用在async修饰的task函数
+
+​	2、音频
+
+​	3、SQL
+
+​		1、*代表所以字段
+
+​		2、winform和数据库
+
+​			2.1、安装mysqlconnector(第三方库)
+
+​			2.2、定义连接字符串（server=ip地址；port;database;uid;pardword;charset）
+
+​			2.3、连接--using(mysqlconnection 变量=new  ---(连接字符串)){
+
+​			变量.params.addwithvalue(“@被替换的”,“替换的”)
+
+​			mysqldataadapter 变量a=new -----()//适配器
+
+​			datatable dt=new----()创建数据表
+
+​			a.fill(dt)//将a装满表dt
+
+​			table.datasource=dt;	
+
+​			}
 
 ​	
+
+​		思路	1、封装好数据库-定义一个获取数据库具体表的构造函数（其他函数想看那个数据库直接传给该函数）-先定义好连接的条件-创建连接符将条件连接起来-
+
+​				2、点击图书的界面展示：调用数据库，创建展示方法--连接改写函数--适配器=内存表-格式处理-列表控件增加
+
+​				3、设置列表控件布局：创方法-清空表头-编辑表头antdui.columncollection(){new antdui.column-创建表头(“属性”,“表头名”)}
+
+​	5、table.cellclick中的e
+
+​		e.columnindex---列下标
+
+​		e.rowindex---行下标
+
+​		e.column---列对象
+
+​		e.record---相当于整个列表信息，类型为传给列表的类型
+
+​	6、

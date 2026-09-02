@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\nineday\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|solutionrelative:sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\nineday\\book\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|solutionrelative:book\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\nineday\\book\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|solutionrelative:book\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\nineday\\book\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|solutionrelative:book\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\nineday\\book\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|solutionrelative:book\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\nineday\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\nineday\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\nineday\\book\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|solutionrelative:book\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\nineday\\book\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{022320E9-05DA-4141-BB29-F8114AD8566F}|nineday.csproj|solutionrelative:book\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "add.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\add.cs",
+              "RelativeDocumentMoniker": "book\\add.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\add.cs*",
+              "RelativeToolTip": "book\\add.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T06:48:06.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "show.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\show.cs",
+              "RelativeDocumentMoniker": "book\\show.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\show.cs",
+              "RelativeToolTip": "book\\show.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T04:56:10.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "show.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\show.cs",
+              "RelativeDocumentMoniker": "book\\show.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\show.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "book\\show.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:23:04.244Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sql.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\sql.cs",
+              "RelativeDocumentMoniker": "sql.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\sql.cs*",
+              "RelativeToolTip": "sql.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:48:40.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "add.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\add.cs",
+              "RelativeDocumentMoniker": "book\\add.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\add.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "book\\add.cs [\u8BBE\u8BA1]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T06:43:04.266Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:28:36.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:21:46.028Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "edit.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\edit.cs",
+              "RelativeDocumentMoniker": "book\\edit.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\edit.cs",
+              "RelativeToolTip": "book\\edit.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:23:06.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "edit.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\edit.cs",
+              "RelativeDocumentMoniker": "book\\edit.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\nineday\\book\\edit.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "book\\edit.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:22:54.743Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

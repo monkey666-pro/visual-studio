@@ -138,6 +138,48 @@
 
 ​		e.column---列对象
 
-​		e.record---相当于整个列表信息，类型为传给列表的类型
+​		e.record---相当于整个列表信息，类型为传给列表的类型（可通过变量结合点击事件查看点击的行数据和列数据对应的键名属性）
 
-​	6、
+​	6、new antudi.celllink[]{new antdui(“属性”，”名字“,AntdUI.TTypeMini,渲染)}
+
+​	7、mysqldatareader 变量=cmd.excutereader
+
+​		变量.read	ture-拿取一行数据
+
+​		变量.hasrows	判断是否有一行数据
+
+​	8、Cmd.ExecuteNonQuery()	数据库受影响的行数
+
+```无
+   9、 new AntdUI.Column("is_borrow","借阅"){
+ Render=(object val,object cel,int index )=> val.ToString()=="1"?"已借阅":"在书架"
+```
+ 		val：数据库里的对应属性的值
+
+​		vel:单元格
+
+​		index:行号
+
+​	10、ALTER TABLE `user` MODIFY COLUMN id INT AUTO_INCREMENT;给某个表的某个属性进行自动排序
+
+​	11、 System.Data.DataRow Book = e.Record as System.Data.DataRow;//获取e中的行属性
+
+​	12、 DialogResult res = MessageBox.Show("确定要删除?", "删除操作", MessageBoxButtons.YesNo);提示窗口
+
+#### Tenday
+
+​	1、select1(autdui的下拉框):select.items=[];
+
+​		select.selectedvalue:获取选中的值
+
+​	2、菜单栏控件
+
+​	3、定时器
+
+​		变量= new System.Windows.Forms.Timer();窗体定时器
+
+​		变量.interval	间隔时间
+
+​		变量.启动		用时要启动
+
+​		

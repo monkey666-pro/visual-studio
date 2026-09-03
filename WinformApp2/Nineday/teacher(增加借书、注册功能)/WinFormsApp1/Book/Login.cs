@@ -33,26 +33,39 @@ namespace WinFormsApp1.Book
             }
 
             string sql = "select * from user where username=@username and password=@password";
-            MySql.ConAndHandler(sql, Cmd =>
+            string sql1 = "select * from user where username=@username ";
+            MySql.ConAndHandler(sql1, Cmd =>
             {
                 Cmd.Parameters.AddWithValue("@username", Name);
-                Cmd.Parameters.AddWithValue("@password", Pwd);
-
-                MySqlDataReader Reader = Cmd.ExecuteReader();
-                bool isLogin = Reader.Read();
-                if (isLogin)
-                {
-                    MessageBox.Show("登录成功");
-                    LoginMark.Invoke("已登录");
-                    this.Close();
-                }
+                MySqlDataReader read = Cmd.ExecuteReader();
+                if (!read.HasRows ) MessageBox.Show("用户名不存在，请先注册");
                 else
+                
                 {
-                    MessageBox.Show("用户名或密码错误!!!");
-                    LoginMark.Invoke("未登录");
-                    this.Close();
+                    MySql.ConAndHandler(sql, Cmd =>
+                    {
+                        Cmd.Parameters.AddWithValue("@username", Name);
+                        Cmd.Parameters.AddWithValue("@password", Pwd);
+
+                        MySqlDataReader Reader = Cmd.ExecuteReader();
+                        bool isLogin = Reader.Read();
+                        if (isLogin)
+                        {
+                            MessageBox.Show("登录成功");
+                            LoginMark.Invoke("已登录");
+                            this.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("用户名或密码错误!!!");
+                            LoginMark.Invoke("未登录");
+                            this.Close();
+                        }
+                    });
                 }
+       
             });
+        
 
 
         }

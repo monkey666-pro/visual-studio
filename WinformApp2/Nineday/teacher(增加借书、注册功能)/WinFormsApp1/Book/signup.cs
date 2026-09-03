@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace WinFormsApp1.Book
 {
@@ -39,6 +40,7 @@ namespace WinFormsApp1.Book
                 {
                     cmd.Parameters.AddWithValue("@username", name);
                     MySqlDataReader read = cmd.ExecuteReader();
+                    
                     if (read.HasRows)
                     {
                         MessageBox.Show("用户名已存在！！");
@@ -82,35 +84,37 @@ namespace WinFormsApp1.Book
             else label7.Visible = false;
 
         }
-        public int num = 0;
+        public Color resultcolor;
         public void rule1(object sender, EventArgs e)
         {
-            
-            if (Regex.IsMatch(input2.Text, @"\d")) num++;
-            if (Regex.IsMatch(input2.Text, @"\D")) num++;
-            if (Regex.IsMatch(input2.Text, @"\W")) num++;
+            int num = 0;
+            string text = input2.Text;
+            if (Regex.IsMatch(text, @"\d")) num++;
+            if (Regex.IsMatch(text, @"\D")) num++;
+            if (Regex.IsMatch(text, @"\W")) num++;
             if (input2.Text.Length >= 8)
             {
 
                 if (num == 1)
                 {
                     label8.Text = "弱";
-                    label8.ForeColor = Color.Red;
+                    resultcolor = Color.Red;
                     label8.Visible = true;
 
                 }
                 if (num == 2)
                 {
                     label8.Text = "中";
-                    label8.ForeColor = Color.Orange;
+                    resultcolor = Color.Orange;
                     label8.Visible = true;
                 }
                 if (num == 3)
                 {
                     label8.Text = "强";
-                    label8.ForeColor = Color.Green;
+                    resultcolor = Color.Green;
                     label8.Visible = true;
                 }
+                label8.ForeColor = resultcolor;
             }
             else label8.Visible = false;
         }

@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\",
+  "WorkspaceRootPath": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher\\winformsapp1\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher\\winformsapp1\\book\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\winformsapp1\\book\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher\\winformsapp1\\book\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher\\winformsapp1\\book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher\\winformsapp1\\book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\winformsapp1\\book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher\\winformsapp1\\book\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher\\winformsapp1\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\book\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\winformsapp1\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\winformsapp1\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\winformsapp1\\book\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,62 +70,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "signup.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\signup.cs",
-              "RelativeDocumentMoniker": "Book\\signup.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\signup.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "Book\\signup.cs [\u8BBE\u8BA1]",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\Login.cs",
+              "RelativeDocumentMoniker": "Book\\Login.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\Login.cs",
+              "RelativeToolTip": "Book\\Login.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwCoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T11:30:49.788Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2026-09-02T08:19:46.756Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "signup.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\signup.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\signup.cs",
               "RelativeDocumentMoniker": "Book\\signup.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\signup.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\signup.cs",
               "RelativeToolTip": "Book\\signup.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAqwHAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T10:55:44.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookShow.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\BookShow.cs",
-              "RelativeDocumentMoniker": "Book\\BookShow.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\BookShow.cs",
-              "RelativeToolTip": "Book\\BookShow.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwLEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T08:58:21.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Mysql.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Mysql.cs",
-              "RelativeDocumentMoniker": "Mysql.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Mysql.cs",
-              "RelativeToolTip": "Mysql.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCEAAAAQAAAAAAAAAA==",
+              "Title": "BookAddAndEdit.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
+              "RelativeDocumentMoniker": "Book\\BookAddAndEdit.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
+              "RelativeToolTip": "Book\\BookAddAndEdit.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T09:24:07.532Z",
+              "WhenOpened": "2026-09-02T09:21:52.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "BookAddAndEdit.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
               "RelativeDocumentMoniker": "Book\\BookAddAndEdit.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\BookAddAndEdit.cs [\u8BBE\u8BA1]",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\BookAddAndEdit.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Book\\BookAddAndEdit.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T09:21:50.047Z",
@@ -133,11 +121,35 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookShow.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\BookShow.cs",
+              "RelativeDocumentMoniker": "Book\\BookShow.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\BookShow.cs",
+              "RelativeToolTip": "Book\\BookShow.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwL0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T08:58:21.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "signup.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\signup.cs",
+              "RelativeDocumentMoniker": "Book\\signup.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\signup.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Book\\signup.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T11:30:49.788Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "BookShow.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\BookShow.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\BookShow.cs",
               "RelativeDocumentMoniker": "Book\\BookShow.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\BookShow.cs [\u8BBE\u8BA1]",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\BookShow.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Book\\BookShow.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T08:58:16.629Z",
@@ -145,24 +157,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookAddAndEdit.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
-              "RelativeDocumentMoniker": "Book\\BookAddAndEdit.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
-              "RelativeToolTip": "Book\\BookAddAndEdit.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAUwB4AAAALAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Mysql.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Mysql.cs",
+              "RelativeDocumentMoniker": "Mysql.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Mysql.cs",
+              "RelativeToolTip": "Mysql.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T09:21:52.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T09:24:07.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "signup.Designer.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\signup.Designer.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\signup.Designer.cs",
               "RelativeDocumentMoniker": "Book\\signup.Designer.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\signup.Designer.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\signup.Designer.cs",
               "RelativeToolTip": "Book\\signup.Designer.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAUwDUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,9 +184,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Form1.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAswB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -184,40 +195,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\Login.cs",
-              "RelativeDocumentMoniker": "Book\\Login.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\Login.cs",
-              "RelativeToolTip": "Book\\Login.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T08:19:46.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Login.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\Login.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Book\\Login.cs",
               "RelativeDocumentMoniker": "Book\\Login.cs",
               "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Book\\Login.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "Book\\Login.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\teacher\\WinFormsApp1\\Book\\Login.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T08:15:25.88Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2026-09-02T08:15:25.88Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Form1.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher(\u589E\u52A0\u501F\u4E66\u3001\u6CE8\u518C\u529F\u80FD)\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Nineday\\teacher\\WinFormsApp1\\Form1.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\teacher\\WinFormsApp1\\Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T08:14:44.897Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2026-09-02T08:14:44.897Z"
             }
           ]
         }

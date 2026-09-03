@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\winformsapp1\\book\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\winformsapp1\\book\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\book\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookShow.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\Book\\BookShow.cs",
+              "RelativeDocumentMoniker": "Book\\BookShow.cs",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\Book\\BookShow.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Book\\BookShow.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T06:45:49.625Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookShow.cs",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\Book\\BookShow.cs",
+              "RelativeDocumentMoniker": "Book\\BookShow.cs",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\Book\\BookShow.cs",
+              "RelativeToolTip": "Book\\BookShow.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T06:34:23.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.Designer.cs",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\Book\\Register.Designer.cs",
+              "RelativeDocumentMoniker": "Book\\Register.Designer.cs",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\Book\\Register.Designer.cs",
+              "RelativeToolTip": "Book\\Register.Designer.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAawNsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T02:44:21.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\Book\\Register.cs",
+              "RelativeDocumentMoniker": "Book\\Register.cs",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\Book\\Register.cs",
+              "RelativeToolTip": "Book\\Register.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwEkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T02:44:06.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\Book\\Register.cs",
+              "RelativeDocumentMoniker": "Book\\Register.cs",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\10day\\02-\u4EE3\u7801\\WinFormsApp1\\Book\\Register.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Book\\Register.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T02:37:07.321Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

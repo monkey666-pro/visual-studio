@@ -182,4 +182,17 @@
 
 ​		变量.启动		用时要启动
 
-​		
+Elevenday
+
+​	1、 DialogResult res = AntdUI.Modal.open(new AntdUI.Modal.Config(this, "删除提示", "你确定要删除吗?",AntdUI.TType.Warn) { 
+​     OkText="删除	----------提示框
+
+​	2、 AntdUI.Message.warn(this, "未登录,点击左上角登录", autoClose: 1);
+
+​	3、 AntdUI.Config.ShowInWindow = true; antudid的提示在窗体内执行
+
+​	4、文件
+
+​	5、数据绑定
+
+​		简单绑定：

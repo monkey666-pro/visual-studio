@@ -48,22 +48,29 @@ namespace WinFormsApp1.car
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            string operate = "update car set carnumber=@carnumber,type=@type,hourrent=@hourrent where id=@id";
-            await sql.ConAndHandler(operate, cmd =>
+            DialogResult res = AntdUI.Modal.open(new AntdUI.Modal.Config(this, "编辑提示", "请确认信息", AntdUI.TType.Warn)
             {
-                cmd.Parameters.AddWithValue("@id", id);
-                cmd.Parameters.AddWithValue("@carnumber", input1.Text);
-                cmd.Parameters.AddWithValue("@type", input2.Text);
-                cmd.Parameters.AddWithValue("@hourrent", inputNumber1.Value);
-                var row = cmd.ExecuteNonQuery();
-                if (row>0)
-                {
-                   
-                    this.Close();
-                    return false;
-                }
-                return true;
+                OkText = "确认"
             });
+            if (res == DialogResult.OK)
+            {
+                string operate = "update car set carnumber=@carnumber,type=@type,hourrent=@hourrent where id=@id";
+                await sql.ConAndHandler(operate, cmd =>
+                {
+                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.Parameters.AddWithValue("@carnumber", input1.Text);
+                    cmd.Parameters.AddWithValue("@type", input2.Text);
+                    cmd.Parameters.AddWithValue("@hourrent", inputNumber1.Value);
+                    var row = cmd.ExecuteNonQuery();
+                    if (row > 0)
+                    {
+                        MessageBox.Show("编辑成功！");
+                        this.Close();
+                        return false;
+                    }
+                    return true;
+                });
+            }
         }
     }
 }

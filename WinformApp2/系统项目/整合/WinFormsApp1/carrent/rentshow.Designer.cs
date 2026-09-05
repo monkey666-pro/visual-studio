@@ -1,6 +1,6 @@
-﻿namespace WinFormsApp1.customer
+﻿namespace WinFormsApp1.carrent
 {
-    partial class show
+    partial class rentshow
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            table1 = new AntdUI.Table();
+            label1 = new AntdUI.Label();
             SuspendLayout();
             // 
-            // pictureBox1
+            // table1
             // 
-            pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(800, 450);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            table1.Gap = 12;
+            table1.Location = new Point(52, 64);
+            table1.Name = "table1";
+            table1.Size = new Size(679, 322);
+            table1.TabIndex = 0;
+            table1.Text = "table1";
             // 
-            // show
+            // label1
+            // 
+            label1.Font = new Font("楷体", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label1.Location = new Point(334, 12);
+            label1.Name = "label1";
+            label1.Size = new Size(98, 31);
+            label1.TabIndex = 1;
+            label1.Text = "租车界面";
+            // 
+            // rentshow
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(pictureBox1);
-            Name = "show";
-            Text = "show";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            Controls.Add(label1);
+            Controls.Add(table1);
+            Name = "rentshow";
+            Text = "rentshow";
             ResumeLayout(false);
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
+        private AntdUI.Table table1;
+        private AntdUI.Label label1;
     }
 }

@@ -44,7 +44,7 @@
             button1.Name = "button1";
             button1.Size = new Size(163, 50);
             button1.TabIndex = 11;
-            button1.Text = "新增";
+            button1.Text = "编辑";
             button1.Click += button1_Click;
             // 
             // inputNumber1

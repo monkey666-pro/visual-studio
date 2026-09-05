@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nHnSmohffd0=",
+  "dgSpecHash": "3KukyMzCiyg=",
   "success": true,
-  "projectFilePath": "D:\\ning(整体)\\WinformApp1\\WinformApp2\\系统项目\\bookandcar\\WinFormsApp1.csproj",
+  "projectFilePath": "D:\\ning(整体)\\WinformApp1\\WinformApp2\\系统项目\\bookandcar（草稿）\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\antdui\\2.4.8\\antdui.2.4.8.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",

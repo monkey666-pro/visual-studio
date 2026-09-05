@@ -191,7 +191,9 @@ namespace WinFormsApp1.Book
                 new AntdUI.Column("price","价格"),
                 new AntdUI.Column("label","标签"),
                 new AntdUI.Column("is_borrow","借阅"){
-                    Render=(object val,object cel,int index )=> val.ToString()=="1"?"已借阅":"在书架"
+                    Render=(object val,object cel,int index )=>
+                    val.ToString()=="1"?"已借阅":"在书架"
+                        
                 },
             };
 

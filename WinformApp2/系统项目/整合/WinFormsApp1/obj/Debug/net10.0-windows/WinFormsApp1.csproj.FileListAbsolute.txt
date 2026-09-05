@@ -153,8 +153,6 @@ D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Deb
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.car.caradd.resources
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.car.caredit.resources
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.car.carshow.resources
-D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.customer.edit.resources
-D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.customer.show.resources
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form1.resources
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Properties.Resources.resources
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.csproj.GenerateResource.cache
@@ -169,3 +167,7 @@ D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Deb
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.pdb
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.genruntimeconfig.cache
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\ref\WinFormsApp1.dll
+D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.customer.customeradd.resources
+D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.customer.customershow.resources
+D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.customer.customeredit.resources
+D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.carrent.rentshow.resources

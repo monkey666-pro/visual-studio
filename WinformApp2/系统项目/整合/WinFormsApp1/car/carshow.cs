@@ -7,6 +7,8 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using WinFormsApp1.carrent;
+using WinFormsApp1.customer;
 
 namespace WinFormsApp1.car
 {
@@ -48,7 +50,7 @@ namespace WinFormsApp1.car
                 new AntdUI.Column("id","编号"){ Render=(object val,object cel,int rowindex)=>rowindex+1},
                 new AntdUI.Column("carnumber","车牌号"),
                 new AntdUI.Column("type","类型"),
-                new AntdUI.Column("hourrent","时租费"),
+                new AntdUI.Column("hourrent","时租/小时"),
                 new AntdUI.Column("isborrow","出租情况")
                 {
                    Render=(object val,object cal,int rowindex)=>cal.ToString()=="1"?"已出租":"空闲中"
@@ -67,6 +69,31 @@ namespace WinFormsApp1.car
             add.Show();
             this.Hide();
             add.FormClosing += Add_FormClosing;
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            customershow customer=new customershow();
+            customer.Show();
+            this.Hide();
+            show();
+            customer.FormClosing += Customer_FormClosing;
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            rentshow rent = new rentshow();
+            rent.Show();
+            this.Hide();
+            show();
+            rent.FormClosing += rent_FormClosing;
+        }
+        private void rent_FormClosing(object? sender, FormClosingEventArgs e)
+        {
+            this.Show();
+        }
+
+        private void Customer_FormClosing(object? sender, FormClosingEventArgs e)
+        {
+            this.Show();
         }
 
         private void Add_FormClosing(object? sender, FormClosingEventArgs e)
@@ -120,9 +147,9 @@ namespace WinFormsApp1.car
 
         private void Edit_FormClosing(object? sender, FormClosingEventArgs e)
         {
-            this.Show();
-            AntdUI.Message.success(this, "编辑成功", autoClose: 2);
             show();
+            this.Show();
+            
         }
     }
 }

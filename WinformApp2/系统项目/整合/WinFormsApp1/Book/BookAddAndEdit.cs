@@ -86,16 +86,33 @@ namespace WinFormsApp1.Book
                 sql = "update  book set name=@name,author=@author,price=@price,label=@label where id=@id";
 
             }
-            // 数据库操作
-            await MySql.ConAndHandler(sql, Cmd =>
+            string sql1 = "select * from book where name=@name";
+           bool res= await MySql.ConAndHandler(sql1, Cmd =>
             {
                 // 填充参数
                 Cmd.Parameters.AddWithValue("@name", Name);
                 Cmd.Parameters.AddWithValue("@author", Author);
                 Cmd.Parameters.AddWithValue("@price", Price);
                 Cmd.Parameters.AddWithValue("@label", BookLabel);
-                if (this.Title == "编辑") Cmd.Parameters.AddWithValue("@id", Id);
-
+                MySqlDataReader a = Cmd.ExecuteReader();
+                if (a.Read())
+                    return false;
+                return true;
+            });
+            if (!res)
+            {
+                AntdUI.Message.warn(this, "书名重复", autoClose: 1);
+                return;
+            }
+            // 数据库操作
+            await MySql.ConAndHandler(sql, Cmd =>
+            {
+            // 填充参数
+            Cmd.Parameters.AddWithValue("@name", Name);
+            Cmd.Parameters.AddWithValue("@author", Author);
+            Cmd.Parameters.AddWithValue("@price", Price);
+            Cmd.Parameters.AddWithValue("@label", BookLabel);
+            if (this.Title == "编辑") Cmd.Parameters.AddWithValue("@id", Id);
                 // 执行
                 int rows = Cmd.ExecuteNonQuery();
                 if (rows > 0)
@@ -109,6 +126,7 @@ namespace WinFormsApp1.Book
                 }
                 return true;
             });
+           
         }
     }
 }

@@ -249,11 +249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ning(整体)\\WinformApp1\\WinformApp2\\系统项目\\bookandcar\\WinFormsApp1.csproj",
+      "projectUniqueName": "D:\\ning(整体)\\WinformApp1\\WinformApp2\\系统项目\\bookandcar（草稿）\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "D:\\ning(整体)\\WinformApp1\\WinformApp2\\系统项目\\bookandcar\\WinFormsApp1.csproj",
+      "projectPath": "D:\\ning(整体)\\WinformApp1\\WinformApp2\\系统项目\\bookandcar（草稿）\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\ning(整体)\\WinformApp1\\WinformApp2\\系统项目\\bookandcar\\obj\\",
+      "outputPath": "D:\\ning(整体)\\WinformApp1\\WinformApp2\\系统项目\\bookandcar（草稿）\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

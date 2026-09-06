@@ -170,4 +170,6 @@ D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Deb
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.customer.customeradd.resources
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.customer.customershow.resources
 D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.customer.customeredit.resources
-D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.carrent.rentshow.resources
+D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.carrent.carreturn.resources
+D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.carrent.carrecord.resources
+D:\ning(整体)\WinformApp1\WinformApp2\系统项目\整合\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.carrent.carrent.resources

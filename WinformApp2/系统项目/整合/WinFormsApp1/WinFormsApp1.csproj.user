@@ -13,7 +13,13 @@
     <Compile Update="Book\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="carrent\rentshow.cs">
+    <Compile Update="carrent\carrecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="carrent\carreturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="carrent\carrent.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="car\caradd.cs">

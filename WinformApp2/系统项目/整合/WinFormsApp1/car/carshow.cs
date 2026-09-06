@@ -53,7 +53,7 @@ namespace WinFormsApp1.car
                 new AntdUI.Column("hourrent","时租/小时"),
                 new AntdUI.Column("isborrow","出租情况")
                 {
-                   Render=(object val,object cal,int rowindex)=>cal.ToString()=="1"?"已出租":"空闲中"
+                   Render=(object val,object cal,int rowindex)=>val.ToString()=="1"?"已出租":"空闲中"
                 },
                 new AntdUI.Column("operate","操作"){Render=(object val,object cel,int rowindex)=> new AntdUI.CellButton[]
                 {
@@ -72,7 +72,7 @@ namespace WinFormsApp1.car
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            customershow customer=new customershow();
+            customershow customer = new customershow();
             customer.Show();
             this.Hide();
             show();
@@ -80,14 +80,31 @@ namespace WinFormsApp1.car
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            rentshow rent = new rentshow();
+            carrent.carrent rent = new carrent.carrent();
             rent.Show();
             this.Hide();
             show();
             rent.FormClosing += rent_FormClosing;
         }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string a="";
+            carreturn huanche = new carreturn();
+            huanche.Show();
+            this.Hide();
+            show();
+            huanche.FormClosing += Huanche_FormClosing;
+        }
+
+        private void Huanche_FormClosing(object? sender, FormClosingEventArgs e)
+        {
+            show();
+            this.Show();
+        }
+
         private void rent_FormClosing(object? sender, FormClosingEventArgs e)
         {
+            show();
             this.Show();
         }
 
@@ -105,11 +122,11 @@ namespace WinFormsApp1.car
         private async void Table1_CellButtonClick(object? sender, TableButtonEventArgs e)
         {
             System.Data.DataRow car = e.Record as System.Data.DataRow;
-           
+
             if (e.Btn.Text == "编辑车辆")
             {
                 //获取车辆id并核对租车状态
-                caredit edit=new caredit(car["id"].ToString());
+                caredit edit = new caredit(car["id"].ToString());
                 edit.Show();
                 this.Hide();
                 //当借车完成后关闭界面并更新表格数据，所以要绑定事件
@@ -119,37 +136,47 @@ namespace WinFormsApp1.car
             {
                 id = car["id"].ToString();
                 //先提示
-                DialogResult res= AntdUI.Modal.open(new AntdUI.Modal.Config(this, "删除提示", "确定删除？", AntdUI.TType.Warn));
+                DialogResult res = AntdUI.Modal.open(new AntdUI.Modal.Config(this, "删除提示", "确定删除？", AntdUI.TType.Warn));
                 //根据id或车牌进行数据库删除，然后更新界面
                 if (res == DialogResult.No)
                 {
                     return;
                 }
 
-                    string deloperate = "delete from car where id=@id";
-                  await  showsql.ConAndHandler(deloperate, cmd =>
-                    {
-                        cmd.Parameters.AddWithValue("@id", id);
-                        int row = cmd.ExecuteNonQuery();
-                        if (row > 0)
-                        {
-                           
-                            AntdUI.Message.success(this, "删除成功", autoClose: 2);
-                            show();
-                            return false;
-                        }
-                        else MessageBox.Show("删除失败");
-                        return true;
-                    });
-                }
-               
+                string deloperate = "delete from car where id=@id";
+                await showsql.ConAndHandler(deloperate, cmd =>
+                  {
+                      cmd.Parameters.AddWithValue("@id", id);
+                      int row = cmd.ExecuteNonQuery();
+                      if (row > 0)
+                      {
+
+                          AntdUI.Message.success(this, "删除成功", autoClose: 2);
+                          show();
+                          return false;
+                      }
+                      else MessageBox.Show("删除失败");
+                      return true;
+                  });
             }
+
+        }
 
         private void Edit_FormClosing(object? sender, FormClosingEventArgs e)
         {
             show();
             this.Show();
-            
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            show();
+        }
+        private void button6_Click(object sender, EventArgs e)
+        {
+            carrecord record= new carrecord();
+            record.Show();
         }
     }
 }

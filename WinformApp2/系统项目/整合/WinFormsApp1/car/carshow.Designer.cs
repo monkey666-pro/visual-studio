@@ -35,6 +35,8 @@
             button2 = new AntdUI.Button();
             button3 = new AntdUI.Button();
             button4 = new AntdUI.Button();
+            button5 = new AntdUI.Button();
+            button6 = new AntdUI.Button();
             SuspendLayout();
             // 
             // table1
@@ -97,8 +99,26 @@
             button4.Name = "button4";
             button4.Size = new Size(170, 44);
             button4.TabIndex = 1;
-            button4.Text = "查看记录";
-            button4.Click += button1_Click;
+            button4.Text = "还车";
+            button4.Click += button4_Click;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(59, 21);
+            button5.Name = "button5";
+            button5.Size = new Size(100, 38);
+            button5.TabIndex = 3;
+            button5.Text = "刷新";
+            button5.Click += button5_Click;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(622, 21);
+            button6.Name = "button6";
+            button6.Size = new Size(100, 38);
+            button6.TabIndex = 3;
+            button6.Text = "查看记录";
+            button6.Click += button6_Click;
             // 
             // carshow
             // 
@@ -106,6 +126,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
+            Controls.Add(button6);
+            Controls.Add(button5);
             Controls.Add(label1);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -125,5 +147,7 @@
         private AntdUI.Button button2;
         private AntdUI.Button button3;
         private AntdUI.Button button4;
+        private AntdUI.Button button5;
+        private AntdUI.Button button6;
     }
 }

@@ -7,20 +7,52 @@
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:car\\carshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\car\\carshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:car\\carshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\carrent\\carrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:carrent\\carrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\carrent\\carreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:carrent\\carreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\carrent\\carrent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:carrent\\carrent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\carrent\\carrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:carrent\\carrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\car\\carshow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:car\\carshow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\carrent\\rentshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:carrent\\rentshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\car\\carshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:car\\carshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\carrent\\rentshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:carrent\\rentshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\carrent\\carrent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:carrent\\carrent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\carrent\\carrent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:carrent\\carrent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\carrent\\carreturn.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:carrent\\carreturn.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\carrent\\carreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:carrent\\carreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\customer\\customershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:customer\\customershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\customer\\customeredit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,19 +63,11 @@
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:customer\\customeredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\customer\\customershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:customer\\customershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\customer\\customeredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customeredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:customer\\customeredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\customer\\customershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:customer\\customershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -51,7 +75,7 @@
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:customer\\customeradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\winformsapp1\\customer\\customeradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customeradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:customer\\customeradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -62,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,26 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "carshow.Designer.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\car\\carshow.Designer.cs",
-              "RelativeDocumentMoniker": "car\\carshow.Designer.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\car\\carshow.Designer.cs",
-              "RelativeToolTip": "car\\carshow.Designer.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAtwFgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T11:54:31.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "carshow.cs",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\car\\carshow.cs",
               "RelativeDocumentMoniker": "car\\carshow.cs",
               "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\car\\carshow.cs",
               "RelativeToolTip": "car\\carshow.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAawE0AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAwKwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-05T11:10:02.812Z",
               "EditorCaption": ""
@@ -101,6 +112,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "carrecord.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carrecord.cs",
+              "RelativeDocumentMoniker": "carrent\\carrecord.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carrecord.cs",
+              "RelativeToolTip": "carrent\\carrecord.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T04:13:22.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "carrent.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carrent.cs",
+              "RelativeDocumentMoniker": "carrent\\carrent.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carrent.cs",
+              "RelativeToolTip": "carrent\\carrent.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwBAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T09:25:37.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "carrecord.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carrecord.cs",
+              "RelativeDocumentMoniker": "carrent\\carrecord.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carrecord.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "carrent\\carrecord.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T04:05:09.375Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "carreturn.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carreturn.cs",
+              "RelativeDocumentMoniker": "carrent\\carreturn.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carreturn.cs",
+              "RelativeToolTip": "carrent\\carreturn.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswDAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T03:54:44.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "carshow.Designer.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\car\\carshow.Designer.cs",
+              "RelativeDocumentMoniker": "car\\carshow.Designer.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\car\\carshow.Designer.cs",
+              "RelativeToolTip": "car\\carshow.Designer.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAswHcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T11:54:31.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "carshow.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\car\\carshow.cs",
               "RelativeDocumentMoniker": "car\\carshow.cs",
@@ -112,32 +187,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "rentshow.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\rentshow.cs",
-              "RelativeDocumentMoniker": "carrent\\rentshow.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\rentshow.cs",
-              "RelativeToolTip": "carrent\\rentshow.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAnwEYAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "carrent.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carrent.cs",
+              "RelativeDocumentMoniker": "carrent\\carrent.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carrent.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "carrent\\carrent.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T09:25:37.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "rentshow.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\rentshow.cs",
-              "RelativeDocumentMoniker": "carrent\\rentshow.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\rentshow.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "carrent\\rentshow.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T09:07:51.06Z",
+              "WhenOpened": "2026-09-06T04:58:11.01Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "BookAddAndEdit.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
+              "RelativeDocumentMoniker": "Book\\BookAddAndEdit.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
+              "RelativeToolTip": "Book\\BookAddAndEdit.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAewFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T08:04:56.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "carrent.Designer.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carrent.Designer.cs",
+              "RelativeDocumentMoniker": "carrent\\carrent.Designer.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carrent.Designer.cs",
+              "RelativeToolTip": "carrent\\carrent.Designer.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T04:57:01.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "carreturn.Designer.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carreturn.Designer.cs",
+              "RelativeDocumentMoniker": "carrent\\carreturn.Designer.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carreturn.Designer.cs",
+              "RelativeToolTip": "carrent\\carreturn.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T06:09:31.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "carreturn.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carreturn.cs",
+              "RelativeDocumentMoniker": "carrent\\carreturn.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\carrent\\carreturn.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "carrent\\carreturn.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T03:53:16.698Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "customershow.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customershow.cs",
+              "RelativeDocumentMoniker": "customer\\customershow.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customershow.cs",
+              "RelativeToolTip": "customer\\customershow.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAWwEcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T03:24:56.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "customeredit.Designer.cs",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customeredit.Designer.cs",
               "RelativeDocumentMoniker": "customer\\customeredit.Designer.cs",
@@ -145,24 +271,22 @@
               "RelativeToolTip": "customer\\customeredit.Designer.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAtwFEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T08:45:20.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T08:45:20.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "customeredit.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customeredit.cs",
               "RelativeDocumentMoniker": "customer\\customeredit.cs",
               "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customeredit.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "customer\\customeredit.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T07:56:28.847Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2026-09-05T07:56:28.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "customeredit.cs",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customeredit.cs",
               "RelativeDocumentMoniker": "customer\\customeredit.cs",
@@ -170,50 +294,22 @@
               "RelativeToolTip": "customer\\customeredit.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAmwEEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T07:39:01.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T07:39:01.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "customershow.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customershow.cs",
-              "RelativeDocumentMoniker": "customer\\customershow.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customershow.cs",
-              "RelativeToolTip": "customer\\customershow.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAWwEcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T03:24:56.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BookAddAndEdit.cs",
-              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
-              "RelativeDocumentMoniker": "Book\\BookAddAndEdit.cs",
-              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
-              "RelativeToolTip": "Book\\BookAddAndEdit.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAewFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T08:04:56.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "customershow.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customershow.cs",
               "RelativeDocumentMoniker": "customer\\customershow.cs",
               "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customershow.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "customer\\customershow.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T08:04:02.6Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2026-09-05T08:04:02.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "customeradd.cs",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customeradd.cs",
               "RelativeDocumentMoniker": "customer\\customeradd.cs",
@@ -226,15 +322,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "customeradd.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customeradd.cs",
               "RelativeDocumentMoniker": "customer\\customeradd.cs",
               "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\\u7CFB\u7EDF\u9879\u76EE\\\u6574\u5408\\WinFormsApp1\\customer\\customeradd.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "customer\\customeradd.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T07:42:23.67Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2026-09-05T07:42:23.67Z"
             }
           ]
         }

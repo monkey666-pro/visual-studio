@@ -23,9 +23,9 @@ namespace WinFormsApp1.carrent
             show();
             table1.CellButtonClick += Table1_CellButtonClick;
         }
-        public string customerid = "";
-       public DateTime now = DateTime.Now;
-        public double hour = 0.0;
+        public string customerid;
+        public double hour ;
+        public string carnumber;
 
         private async void Table1_CellButtonClick(object sender, TableButtonEventArgs e)
         {
@@ -58,7 +58,8 @@ namespace WinFormsApp1.carrent
                     string id = rent["id"].ToString();
                      hour = (double)rent["hourrent"];
                     string operate = "update car set isborrow=1 where id=@id";
-                    await rentsql.ConAndHandler(operate, cmd =>
+                    string operate1 = "insert into carrent (id,carnumber,customerid,rentaltime,hourmoney) values(@id,@carnumber,@customerid,@rentaltime,@hourmoney)";
+                   bool a= await rentsql.ConAndHandler(operate, cmd =>
                       {
                           cmd.Parameters.AddWithValue("@id", id);
                           int row = cmd.ExecuteNonQuery();
@@ -66,16 +67,32 @@ namespace WinFormsApp1.carrent
                           {
                               show();
                               AntdUI.Message.success(this, "借车成功", autoClose: 2);
-                              customerid = input1.Text;
+                              carnumber = rent["carnumber"].ToString();
+                              MySqlDateTime now= new MySqlDateTime();
+ 
+                              MessageBox.Show(id);
+                              MessageBox.Show(carnumber);
+                              return false;
                           }
 
                           return true;
                       });
-
+                    if (a == false)
+                    {
+                        await rentsql.ConAndHandler(operate1, cmd =>
+                        {
+                            cmd.Parameters.AddWithValue("@id", id);
+                            cmd.Parameters.AddWithValue("@carnumber", carnumber);
+                            cmd.Parameters.AddWithValue("@customerid", customerid);
+                            cmd.Parameters.AddWithValue("@rentaltime", DateTime.Now);
+                            cmd.Parameters.AddWithValue("@hourmoney", rent["hourrent"]);
+                            cmd.ExecuteNonQuery();
+                            return true;
+                        });
+                    }
                 }
             }
         }
-
         public async void show()
         {
             string operate = "select * from car where isborrow=2";

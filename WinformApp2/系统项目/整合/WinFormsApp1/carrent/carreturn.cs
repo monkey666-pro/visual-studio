@@ -17,27 +17,39 @@ namespace WinFormsApp1.carrent
         public carreturn()
         {
             InitializeComponent();
-           carrent rent= new carrent();
-            customerid = rent.customerid;
             table1.CellButtonClick += Table1_CellButtonClick;
             show();
         }
-        public string customerid = "";
-        public string carnumber = "";
-        public string carid = "";
-        public DateTime now;
+        public double hourmoney;
+        public string id;
+        public double count;
+        public DateTime renttime;
 
         private async void Table1_CellButtonClick(object sender, TableButtonEventArgs e)
         {
-            System.Data.DataRow rent = e.Record as System.Data.DataRow;
-            if (e.Btn.Text == "还车")
+
+
+                if (e.Btn.Text == "还车")
             {
                 DialogResult res = AntdUI.Modal.open(AntdUI.Modal.config("还车提示", "确定结束借车吗 ？", AntdUI.TType.Info));
                 if (res == DialogResult.OK)
                 {
+                    System.Data.DataRow rent = e.Record as System.Data.DataRow;
                     string id = rent["id"].ToString();
+                    string operates = "select * from carrent where id=@id";
+                    await returnsql.ConAndHandler(operates, cmd =>
+                    {
+                        cmd.Parameters.AddWithValue("@id", id);
+                        MySqlDataReader time = cmd.ExecuteReader();
+                        if (time.Read())
+                        {
+                            renttime = (DateTime)time["rentaltime"];
+                            hourmoney = time.GetDouble("hourmoney");
+                        }
+                        return true;
+                    });
                     string operate = "update car set isborrow=2 where id=@id";
-                    await returnsql.ConAndHandler(operate, cmd =>
+                  bool a=  await returnsql.ConAndHandler(operate, cmd =>
                     {
                         cmd.Parameters.AddWithValue("@id", id);
                         int row = cmd.ExecuteNonQuery();
@@ -45,14 +57,29 @@ namespace WinFormsApp1.carrent
                         {
                             show();
                             AntdUI.Message.success(this, "还车成功", autoClose: 2);
-                            now = DateTime.Now;
-                            carid = rent["id"].ToString();
-                            carnumber = rent["carnumber"].ToString();
+                            return false;
                         }
 
                         return true;
                     });
 
+                    if (a == false)
+                    {
+                        DateTime nowtime = DateTime.Now;
+                        string carid = rent["id"].ToString();
+                      await  returnsql.ConAndHandler("update carrent set returntime=@returntime,count=@count where id=@id", cmd=>
+                        {
+                            TimeSpan restime = renttime - nowtime;
+                            var hour = restime.TotalHours;
+                            //算钱
+                            count = hour * hourmoney;
+                            cmd.Parameters.AddWithValue("@returntime", nowtime);
+                            cmd.Parameters.AddWithValue("@count", count);
+                            cmd.Parameters.AddWithValue("@id", id);
+                            cmd.ExecuteNonQuery();
+                            return true;
+                        });
+                    }
                 }
             }
         }
@@ -75,7 +102,6 @@ namespace WinFormsApp1.carrent
             table1.Columns.Clear();
             table1.Bordered = true;
             table1.Radius = 4;
-            string customer = customerid;
             table1.ForeColor = Color.Black;
             //table1.AutoSizeColumnsMode = ColumnsMode.Auto;//列自动拉伸
             table1.AutoSizeColumnsMode = ColumnsMode.Fill;
@@ -89,10 +115,6 @@ namespace WinFormsApp1.carrent
                 {
                    Render=(object val,object cal,int rowindex)=>val.ToString()=="1"?"已出租":"空闲中"
                 },
-                  new AntdUI.Column("customerid","客户id")
-                  {
-                      Render=(object val,object cal,int rowindex)=>{ return "dff"+customer; }
-                  },
                 new AntdUI.Column("operate","操作"){Render=(object val,object cel,int rowindex)=> new AntdUI.CellButton[]
                 {
                     new AntdUI.CellButton("rental","还车",AntdUI.TTypeMini.Success),

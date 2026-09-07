@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RmYE9pAali4=",
+  "success": true,
+  "projectFilePath": "D:\\视觉02\\02-WinForm阶段\\12day\\02-代码\\WinFormsApp1\\WinFormsApp2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leon\\.nuget\\packages\\antdui\\2.4.8\\antdui.2.4.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -35,9 +35,9 @@
             // table1
             // 
             table1.Gap = 12;
-            table1.Location = new Point(61, 57);
+            table1.Location = new Point(12, 59);
             table1.Name = "table1";
-            table1.Size = new Size(676, 368);
+            table1.Size = new Size(776, 368);
             table1.TabIndex = 0;
             table1.Text = "table1";
             // 

@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\thirteen\\winformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\thirteen\\winformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\thirteen\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\thirteen\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\ning(\u6574\u4F53)\\winformapp1\\winformapp2\\thirteen\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvwsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T11:22:54.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T10:30:40.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\Form2.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Form2.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T09:27:30.389Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADgvwkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T02:51:14.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\ning(\u6574\u4F53)\\WinformApp1\\WinformApp2\\Thirteen\\WinFormsApp1\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T01:54:53.796Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

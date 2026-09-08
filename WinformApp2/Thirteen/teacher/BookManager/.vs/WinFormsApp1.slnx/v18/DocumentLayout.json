@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\bookmanager\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\bookmanager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\bookmanager\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\bookmanager\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\bookmanager\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\bookmanager\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\\u89C6\u89C902\\02-winform\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\bookmanager\\winformsapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:winformsapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-08T03:27:03.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T03:21:05.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\Book\\Login.cs",
+              "RelativeDocumentMoniker": "Book\\Login.cs",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\Book\\Login.cs",
+              "RelativeToolTip": "Book\\Login.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwDwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T03:14:33.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\Book\\Login.cs",
+              "RelativeDocumentMoniker": "Book\\Login.cs",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\Book\\Login.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Book\\Login.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T03:17:47.042Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "Properties\\Settings.Designer.cs",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T03:17:00.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Properties\\Settings.settings",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\Properties\\Settings.settings",
+              "RelativeToolTip": "Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2026-09-08T03:15:54.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WinFormsApp1",
+              "DocumentMoniker": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\WinFormsApp1.csproj",
+              "RelativeDocumentMoniker": "WinFormsApp1.csproj",
+              "ToolTip": "D:\\\u89C6\u89C902\\02-WinForm\u9636\u6BB5\\13day\\02-\u4EE3\u7801\\BookManager\\WinFormsApp1.csproj",
+              "RelativeToolTip": "WinFormsApp1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-08T03:15:18.183Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

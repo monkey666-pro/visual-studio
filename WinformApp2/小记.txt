@@ -201,3 +201,93 @@ Elevenday
 
 MODIFY COLUMN addtime TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;数据库时间自动填充
 
+#### elevenday
+
+​	1、
+
+#### Twelve
+
+​	1、画图
+
+​		事件： this.Paint += Panel1_Paint;
+
+​				private void Panel1_Paint(object? sender, PaintEventArgs e)
+
+​		步骤：获取画图对象---graphics g=e.graphics
+
+​			：创建画笔或笔刷---using(Pen 变量名 =new Pen(颜色，厚度))
+
+​			：画指定图形
+
+​		 g.SmoothingMode = SmoothingMode.AntiAlias;抗锯齿
+
+​	2、**画**图形
+
+​		矩形：g.grawrectangle(画笔变量名,起始坐标x,起始坐标y，宽，高)
+
+​		椭圆：g.drawellipse(画笔变量名,起始坐标x,起始坐标y，宽，高)--当宽高一样时才是圆
+
+​		直线：g.drawline(画笔变量名,起始坐标x,起始坐标y，终点坐标x，终点坐标y)
+
+​		文字：using(brush 变量名=new solibrush(颜色))
+
+​			：using(字体设置：font 变量名=new font(“字体”,大小)){g.drawstring(“内容”,font变量名,brush变量名，坐标x,坐标y)}
+
+​		多边形：先定义 一个point数组装好各自点的坐标->using (Pen penPoly = new Pen(Color.DarkMagenta, 2))
+{
+​    g.DrawPolygon(penPoly, points);
+}
+
+​		三角形：和多边形一样
+
+​		正三角形：30，150，270
+
+​		弧线：Rectangle Rect = new Rectangle(x开始坐标, y开始坐标, 长, 高)->g.drawarc(画笔，rect,开始角度，结束角度)
+
+#### Thirteen
+
+​	1、递归函数
+
+​		相当于循环，逻辑类似逆推
+
+​	2、dll(第三方库)
+
+​		项目类型：库（将显示的代码放进去生成即可）
+
+​		作用：将其他窗体显示的东西保存为.dll文件，需要时引用文件，当作控件放入即可
+
+​		步骤： “依赖项” 右键 -> “添加引用-> “浏览(B)” 按钮找到bin的 .dll 文件。
+
+​	3、dlllimport
+
+​		作用：帮忙寻找不在本c#的代码
+
+​		[DllImport("dll文件名")]例： [DllImport("User32.dll")] 
+
+​		 public static extern 返回类型 函数名(参数类型 参数名);
+
+​		条件：接收的返回类型和参数必须相同
+
+​		AllocConsole()：给 WinForms 窗体程序额外弹出一个黑色控制台窗口
+
+​	4、settings
+
+​		作用域：application（只读），user（可读可写）
+
+​		步骤：手动创建settings（右键文件属性-设置-创建）
+
+​		写入：Properties.Settings.Default.定义的名字
+
+​		保存：properties.settings,default.save()
+
+​		重置:properties.settings.default.reset();
+
+​	5、杂
+
+​		this.keypreview=true	优先获得焦点
+
+​		this.shown	窗体显示完成前
+
+​		this.activecontrol=null	取消窗体上所有控件的焦点
+
+​		Enum.TryParse (Lab.Text, true, out Keys k)	判断lab.text是否和输入的键k相等，true并表示是否屏蔽大小写

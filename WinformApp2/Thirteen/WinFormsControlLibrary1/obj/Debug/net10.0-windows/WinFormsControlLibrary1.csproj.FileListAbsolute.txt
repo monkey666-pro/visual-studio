@@ -1,0 +1,15 @@
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\bin\Debug\net10.0-windows\WinFormsControlLibrary1.deps.json
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\bin\Debug\net10.0-windows\WinFormsControlLibrary1.dll
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\bin\Debug\net10.0-windows\WinFormsControlLibrary1.pdb
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.UserControl1.resources
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.csproj.GenerateResource.cache
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.AssemblyInfoInputs.cache
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.AssemblyInfo.cs
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.csproj.CoreCompileInputs.cache
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.sourcelink.json
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.dll
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\refint\WinFormsControlLibrary1.dll
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.pdb
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\ref\WinFormsControlLibrary1.dll
+D:\ning(整体)\WinformApp1\WinformApp2\Thirteen\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinForms.0382EF80.Up2Date
